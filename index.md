@@ -4,3 +4,6 @@
 
 layout: home
 ---
+# HI ZHANGHE
+
+![My helpful screenshot](/assets/wxmp.png)

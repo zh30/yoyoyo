@@ -1,0 +1,14 @@
+{
+  "name": "yoyo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://hertzzhang@github.com/hertzZhang/yoyo.git",
+  "author": "hertz <zhanghelook@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "dependencies": {
+    "animejs": "^3.0.1"
+  }
+}
