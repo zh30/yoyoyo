@@ -27,6 +27,9 @@ github_username:  jekyll
 collections:
   authors:
     output: true
+  staff_members:
+    output: true
+    # people: true
 
 defaults:
   - scope:
