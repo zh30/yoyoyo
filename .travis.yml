@@ -23,6 +23,8 @@ deploy:
   on:
     branch: master
 
+after_deploy: script/gemspec
+
 # branch whitelist, only for GitHub Pages
 branches:
   only:
