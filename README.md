@@ -1,4 +1,4 @@
-# YOYOME
+# YOYOYO
 a jekyll theme
 
 ## Todo List
