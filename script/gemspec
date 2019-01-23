@@ -10,4 +10,4 @@ else
   exit 1
 fi
 
-gem build script/yoyo.gemspec
+gem build script/yoyoyo.gemspec

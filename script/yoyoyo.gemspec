@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = "yoyome"
+  spec.name          = "yoyoyo"
   spec.version       = "0.0.1"
   spec.authors       = ["Hertz Zhang"]
   spec.email         = ["zhanghelook@outlook.com"]
 
-  spec.summary       = "A beautiful, yoyome theme for Jekyll."
-  spec.homepage      = "https://github.com/hertzZhang/yoyome"
+  spec.summary       = "A beautiful, yoyoyo theme for Jekyll."
+  spec.homepage      = "https://github.com/hertzZhang/yoyoyo"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
