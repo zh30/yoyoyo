@@ -6,4 +6,4 @@ layout: home
 ---
 # HI ZHANGHE
 
-![My helpful screenshot]({{ site.baseurl }}/assets/wxmp.png)
+<!-- ![My helpful screenshot]({{ site.baseurl }}/assets/wxmp.png) -->
