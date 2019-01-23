@@ -6,14 +6,14 @@ layout: default
 <ul>
   {% for author in site.authors %}
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+      <h2><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></h2>
       <h3>{{ author.position }}</h3>
       <p>{{ author.content | markdownify }}</p>
     </li>
   {% endfor %}
   {% for staff_member in site.staff_members %}
     <h2>
-      <a href="{{ staff_member.url }}">
+      <a href="{{ site.baseurl }}{{ staff_member.url }}">
         {{ staff_member.name }} - {{ staff_member.position }}
       </a>
     </h2>
