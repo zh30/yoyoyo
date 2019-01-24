@@ -4,6 +4,7 @@ author: ted
 categories: [blog, travel]
 tags: [hot, summer]
 excerpt: The most common cultivar group of kiwifruit is oval
+previewimg: /assets/images/wxmp.png
 ---
 # Kiwifruit
 

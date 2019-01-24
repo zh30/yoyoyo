@@ -31,6 +31,15 @@ collections:
     output: true
     # people: true
 
+author:
+  twitter: hertzZhang
+
+baidu:
+  appid: 1612867930592980
+
+ga:
+  userid: UA-125234893-1
+
 defaults:
   - scope:
       path: ""

@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="zh">
   <head>
-    <meta charset="utf-8" />
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css" />
-    {% feed_meta %}
-    {% seo %}
+    {% include head.html %}
   </head>
   <body>
     {% include navigation.html %}
     {% include tags.html %}
     {{ content }}
     {% include categories.html %}
+    <script src="{{ site.baseurl }}/assets/js/app.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+        "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
+        "appid": "{{ site.baidu.appid }}",
+        {% if page.title %}
+        "title": "{{ page.title }}",
+        {% else %}
+        "title": "{{ site.title }}",
+        {% endif%}
+        "images": [
+          "{{ site.url }}{{ site.baseurl }}{{ page.previewimg}}"
+        ],
+        "pubDate": "{{ page.date | date_to_xmlschema }}"
+      }
+  </script>
   </body>
 </html>

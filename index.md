@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+previewimg: /assets/images/wxmp.png
 ---
 # HI ZHANGHE
 
-<!-- ![My helpful screenshot]({{ site.baseurl }}/assets/wxmp.png) -->
+<!-- ![My helpful screenshot]({{ site.baseurl }}/assets/images/wxmp.png) -->
