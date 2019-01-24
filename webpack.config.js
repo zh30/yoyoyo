@@ -3,7 +3,8 @@ const path = require("path");
 module.exports = {
   entry: "./assets/ts/app.ts",
   output: {
-    filename: "./assets/js/app.js"
+    filename: "app.js",
+    path: path.resolve(__dirname, "assets/js")
   },
 
   // Enable sourcemaps for debugging webpack's output.
