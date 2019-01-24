@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./assets/js",
+    "outDir": "./assets/js/",
     "allowJs": true,
     "target": "es5"
   },
