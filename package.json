@@ -1,8 +1,8 @@
 {
-  "name": "yoyome",
-  "version": "0.0.1",
+  "name": "yoyoyo",
+  "version": "0.0.2",
   "private": true,
-  "repository": "https://hertzzhang@github.com/hertzZhang/yoyome.git",
+  "repository": "https://hertzzhang@github.com/hertzZhang/yoyoyo.git",
   "author": "hertz <zhanghelook@outlook.com>",
   "license": "MIT",
   "scripts": {
