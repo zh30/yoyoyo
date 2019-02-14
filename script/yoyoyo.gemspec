@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "yoyoyo"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Hertz Zhang"]
   spec.email         = ["zhanghelook@outlook.com"]
 
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
     f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))!i)
   end
 
-  spec.add_runtime_dependency "jekyll", "~> 3.5"
+  spec.add_runtime_dependency "jekyll", "~> 3.8.5"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.2"
