@@ -5,6 +5,11 @@
 layout: home
 previewimg: /assets/images/wxmp.png
 ---
-# HI YOYOYO
 
-<!-- ![My helpful screenshot]({{ site.baseurl }}/assets/images/wxmp.png) -->
+{% for post in paginator.posts %}
+
+  {% include post-card.html %}
+
+{% endfor %}
+
+{% include pagination.html %}
