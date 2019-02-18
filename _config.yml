@@ -23,6 +23,8 @@ excerpt_separator: true
 baseurl: "/yoyoyo" # the subpath of your site, e.g. /blog
 url: "https://zhanghe.org" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
+paginate: 1
+paginate_path: "/page/:num"
 twitter_username: hertzZhang
 github_username:  hertzZhang
 collections:
@@ -61,6 +63,7 @@ defaults:
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
