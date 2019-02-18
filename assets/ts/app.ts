@@ -20,4 +20,4 @@ function greeter(person: Person) {
 
 let user = new Student("Jane", "M.", "User");
 
-document.body.innerHTML = greeter(user);
+document.body.append(greeter(user));
