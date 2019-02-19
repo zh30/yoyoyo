@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "outDir": "./assets/js/",
+    "noImplicitAny": true,
     "allowJs": true,
-    "target": "es5"
+    "target": "es5",
+    "sourceMap": true,
   },
-  "include": [
-    "./assets/ts/**/*"
-  ]
+  "include": ["./assets/ts/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
