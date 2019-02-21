@@ -1,4 +1,4 @@
-var Student = /** @class */ (function () {
+var Student = (function () {
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
         this.middleInitial = middleInitial;
@@ -10,5 +10,6 @@ var Student = /** @class */ (function () {
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-var user = new Student("Jane", "M.", "User");
+var user = new Student("Zhanghe", "M.", "User");
 document.body.append(greeter(user));
+//# sourceMappingURL=app.js.map

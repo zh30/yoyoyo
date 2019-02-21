@@ -2,6 +2,7 @@
   "compilerOptions": {
     "outDir": "./assets/js/",
     "noImplicitAny": true,
+    "removeComments": true,
     "allowJs": true,
     "target": "es5",
     "sourceMap": true,
