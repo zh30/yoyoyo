@@ -10,6 +10,6 @@ var Student = (function () {
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-var user = new Student("Zhanghe", "M.", "User");
+var user = new Student("zhanghe", "M.", "User");
 document.body.append(greeter(user));
 //# sourceMappingURL=app.js.map

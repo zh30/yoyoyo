@@ -7,8 +7,9 @@
   "license": "MIT",
   "scripts": {
     "commit": "git add . && npx git-cz",
-    "start:js": "webpack-dev-server",
-    "start": "yarn start:js & bundle exec jekyll serve",
+    "js": "webpack-dev-server",
+    "start&js": "yarn js & bundle exec jekyll serve",
+    "start": "bundle exec jekyll serve",
     "build": "gem build script/yoyoyo.gemspec"
   },
   "dependencies": {
