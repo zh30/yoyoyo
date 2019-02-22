@@ -5,10 +5,14 @@
   "repository": "https://hertzzhang@github.com/hertzZhang/yoyoyo.git",
   "author": "hertz <zhanghelook@outlook.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=11.10",
+    "npm": ">=6.7"
+  },
   "scripts": {
     "commit": "git add . && npx git-cz",
-    "js": "webpack",
-    "start&js": "yarn js & bundle exec jekyll serve",
+    "webpack": "webpack",
+    "dev": "yarn webpack & yarn start & wait",
     "start": "bundle exec jekyll serve",
     "build": "gem build script/yoyoyo.gemspec"
   },
