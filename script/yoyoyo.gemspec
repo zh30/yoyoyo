@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "yoyoyo"
-  spec.version       = "0.0.2"
+  spec.version       = "0.0.3"
   spec.authors       = ["Hertz Zhang"]
   spec.email         = ["zhanghelook@outlook.com"]
 
