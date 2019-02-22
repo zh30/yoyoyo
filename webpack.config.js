@@ -7,6 +7,10 @@ module.exports = {
     filename: "app.js",
     path: path.resolve(__dirname, "assets/js")
   },
+  watch: true,
+  watchOptions: {
+    ignored: /node_modules/
+  },
 
   // Enable sourcemaps for debugging webpack's output.
   devtool: "source-map",
