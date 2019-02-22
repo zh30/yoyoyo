@@ -105,7 +105,7 @@ var Student = (function () {
 function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
-var user = new Student("xixihaha", "M.", "User");
+var user = new Student("zhanghe", "M.", "User");
 document.body.append(greeter(user));
 
 
