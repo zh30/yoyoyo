@@ -23,7 +23,7 @@ excerpt_separator: true
 baseurl: "/yoyoyo" # the subpath of your site, e.g. /blog
 url: "https://zhanghe.org" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
-paginate: 1
+paginate: 20
 paginate_path: "/page/:num"
 twitter_username: hertzZhang
 github_username:  hertzZhang
