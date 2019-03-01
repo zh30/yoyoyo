@@ -10,7 +10,7 @@ a jekyll theme
   - [x] JavaScript
   - [x] MarkDown
 - [ ] 首页基础布局
-- [ ] 顶部总导航
+- [ ] 顶部导航
 - [ ] 底部页脚
 - [ ] 最新文章列表
 - [ ] 标签文章列表
