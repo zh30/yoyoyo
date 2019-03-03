@@ -4,10 +4,18 @@ title: Home
 pagination:
   enabled: true
 ---
-<main>
+<main class="container-fluid">
+  <div class="grid">
+    <div class="grid-item theme-header">
+
+    </div>
+    {% for post in paginator.posts %}
+      {% include post-card.html %}
+    {% endfor %}
+    <div class="grid-item theme-footer">
+
+    </div>
+  </div>
   {{content}}
-  {% for post in paginator.posts %}
-    {% include post-card.html %}
-  {% endfor %}
-  {% include pagination.html %}
+  <!-- {% include pagination.html %} -->
 </main>
