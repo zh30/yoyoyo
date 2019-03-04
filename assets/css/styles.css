@@ -7488,7 +7488,7 @@ a.text-dark:hover, a.text-dark:focus {
     display: grid;
     grid-template-columns: repeat(2, 50vmax); }
 
-  .grid__item {
+  .grid-item {
     height: 50vmax;
     width: 100%; }
 
