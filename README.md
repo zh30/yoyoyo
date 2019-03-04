@@ -1,8 +1,6 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/hertzZhang/yoyoyo.svg)
 ![Travis (.org)](https://img.shields.io/travis/hertzZhang/yoyoyo.svg)
 ![Gem](https://img.shields.io/gem/v/yoyoyo.svg)
 ![Gem](https://img.shields.io/gem/dt/yoyoyo.svg?color=%23e9573f&label=Gem%E4%B8%8B%E8%BD%BD%E6%80%BB%E6%AC%A1%E6%95%B0)
-![GitHub stars](https://img.shields.io/github/stars/hertzZhang/yoyoyo.svg?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/hertzZhang/yoyoyo.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hertzZhang/yoyoyo.svg)
 ![GitHub](https://img.shields.io/github/license/hertzZhang/yoyoyo.svg)
