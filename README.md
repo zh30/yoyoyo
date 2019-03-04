@@ -7,13 +7,13 @@
 ![Website](https://img.shields.io/website-up-down-green-red/https/zhanghe.org/yoyoyo/.svg)
 ![Twitter Follow](https://img.shields.io/twitter/follow/hertzZhang.svg?style=social)
 
-# yoyoyo theme
+# Yoyoyo theme
 
 Yoyoyo is a beautiful theme for Jekyll.
 
 ## Quickstart
 
-Get started in 5 minutes.
+[Get started in 5 minutes.](https://github.com/hertzZhang/yoyoyo/wiki/Quickstart)
 
 ## Want to help?
 
