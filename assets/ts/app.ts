@@ -1,23 +1,21 @@
-class Student {
-  fullName: string;
-  constructor(
-    public firstName: string,
-    public middleInitial: string,
-    public lastName: string
-  ) {
-    this.fullName = firstName + " " + middleInitial + " " + lastName;
-  }
+import { Observable } from "rxjs";
+
+var observable = Observable.create((observer: any) => {
+  observer.next("Hello World!");
+  observer.next("Hello Again!");
+  observer.complete();
+  observer.next("Bye");
+});
+
+observable.subscribe(
+  (x: any) => logItem(x),
+  (error: any) => logItem("Error: " + error),
+  () => logItem("Completed")
+);
+
+function logItem(val: any) {
+  var node = document.createElement("li");
+  var textnode = document.createTextNode(val);
+  node.appendChild(textnode);
+  document.body.appendChild(node);
 }
-
-interface Person {
-  firstName: string;
-  lastName: string;
-}
-
-function greeter(person: Person) {
-  return "Hello, " + person.firstName + " " + person.lastName;
-}
-
-let user = new Student("zhanghe", "M.", "User");
-
-document.body.append(greeter(user));

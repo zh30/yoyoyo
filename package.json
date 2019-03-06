@@ -17,7 +17,8 @@
     "build": "gem build script/yoyoyo.gemspec"
   },
   "dependencies": {
-    "animejs": "^3.0.1"
+    "animejs": "^3.0.1",
+    "rxjs": "^6.4.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
