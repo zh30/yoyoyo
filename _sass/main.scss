@@ -1,5 +1,5 @@
 .current {
-  color: green;
+  color: $cyan;
 }
 
 @media screen and (min-width: 85em) {
@@ -17,6 +17,7 @@
   .grid-item {
     height: 50vmax;
     width: 100%;
+    overflow: hidden;
   }
 
   .grid__item-subtitle * {
