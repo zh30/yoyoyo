@@ -7477,8 +7477,11 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+.theme-header {
+  background-color: #17a2b8; }
+
 .current {
-  color: green; }
+  color: #17a2b8; }
 
 @media screen and (min-width: 85em) {
   .grid__item-text {
@@ -7490,7 +7493,8 @@ a.text-dark:hover, a.text-dark:focus {
 
   .grid-item {
     height: 50vmax;
-    width: 100%; }
+    width: 100%;
+    overflow: hidden; }
 
   .grid__item-subtitle * {
     opacity: 0;
