@@ -9,7 +9,7 @@
 
 # Yoyoyo theme
 
-Yoyoyo is a beautiful theme for Jekyll.
+一个漂亮的、适合程序员的 Jekyll 主题。
 
 ## Quickstart
 
