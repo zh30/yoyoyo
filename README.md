@@ -7,9 +7,9 @@
 ![Website](https://img.shields.io/website-up-down-green-red/https/zhanghe.org/yoyoyo/.svg)
 ![Twitter Follow](https://img.shields.io/twitter/follow/hertzZhang.svg?style=social)
 
-# Yoyoyo theme
+# 呦呦呦 Jekyll 主题
 
-一个漂亮的、适合程序员的 Jekyll 主题。
+一个漂亮的、自适应的、适合程序员的 Jekyll 主题。
 
 ## Quickstart
 
