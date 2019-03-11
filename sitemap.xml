@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://zhanghe.org/yoyoyo/authors/hertz.html</loc>
-<lastmod>2019-03-10T08:39:25+00:00</lastmod>
+<lastmod>2019-03-11T01:32:48+00:00</lastmod>
 </url>
 <url>
 <loc>https://zhanghe.org/yoyoyo/authors/jill.html</loc>
-<lastmod>2019-03-10T08:39:25+00:00</lastmod>
+<lastmod>2019-03-11T01:32:48+00:00</lastmod>
 </url>
 <url>
 <loc>https://zhanghe.org/yoyoyo/authors/ted.html</loc>
-<lastmod>2019-03-10T08:39:25+00:00</lastmod>
+<lastmod>2019-03-11T01:32:48+00:00</lastmod>
 </url>
 <url>
 <loc>https://zhanghe.org/yoyoyo/2017/10/08/brunch-swag.html</loc>
@@ -89,8 +89,16 @@
 <lastmod>2019-02-22T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/&amp;&amp;.html</loc>
+<lastmod>2019-03-08T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html</loc>
+<lastmod>2019-03-08T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://zhanghe.org/yoyoyo/staff_members/jane.html</loc>
-<lastmod>2019-03-10T08:39:25+00:00</lastmod>
+<lastmod>2019-03-11T01:32:48+00:00</lastmod>
 </url>
 <url>
 <loc>https://zhanghe.org/yoyoyo/about.html</loc>
@@ -103,5 +111,8 @@
 </url>
 <url>
 <loc>https://zhanghe.org/yoyoyo/staff.html</loc>
+</url>
+<url>
+<loc>https://zhanghe.org/yoyoyo/page/2/</loc>
 </url>
 </urlset>
