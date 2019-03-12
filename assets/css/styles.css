@@ -7489,10 +7489,10 @@ a.text-dark:hover, a.text-dark:focus {
 @media screen and (min-width: 50em) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, 50vmax); }
+    grid-template-columns: repeat(2, 50vw); }
 
   .grid-item {
-    height: 50vmax;
+    height: 50vw;
     width: 100%;
     overflow: hidden; }
 
