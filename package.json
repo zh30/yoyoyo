@@ -10,7 +10,7 @@
     "npm": ">=6.7"
   },
   "scripts": {
-    "commit": "git add . && npx git-cz",
+    "cz": "git add . && npx git-cz",
     "webpack": "webpack",
     "dev": "yarn webpack & yarn start & wait",
     "start": "bundle exec jekyll serve",
