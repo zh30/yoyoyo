@@ -6,15 +6,11 @@ pagination:
 ---
 <main>
   <div class="grid">
-    <div class="grid-item theme-header">
-
-    </div>
+    {% include home-header.html %}
     {% for post in paginator.posts %}
       {% include post-card.html %}
     {% endfor %}
-    <div class="grid-item theme-footer">
-
-    </div>
+    {% include home-footer.html %}
   </div>
   {{content}}
   <!-- {% include pagination.html %} -->
