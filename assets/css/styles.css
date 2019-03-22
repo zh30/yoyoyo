@@ -7480,18 +7480,18 @@ a.text-dark:hover, a.text-dark:focus {
 .current {
   color: #17a2b8; }
 
-@media screen and (min-width: 85em) {
-  .grid__item-text {
-    width: 80%; } }
+.grid-item {
+  padding: 1em;
+  width: 100%;
+  overflow: hidden; }
+
 @media screen and (min-width: 50em) {
   .grid {
     display: grid;
     grid-template-columns: repeat(2, 50vw); }
 
   .grid-item {
-    height: 50vw;
-    width: 100%;
-    overflow: hidden; }
+    height: 50vw; }
 
   .grid__item-subtitle * {
     opacity: 0;
