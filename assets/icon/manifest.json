@@ -2,7 +2,6 @@
  "name": "ZhangHe",
  "short_name": "He",
  "background_color": "#FFE700",
- "display": "fullscreen",
  "theme_color": "#FFE700",
  "icons": [
   {
