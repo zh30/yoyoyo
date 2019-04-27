@@ -3,9 +3,19 @@
 }
 
 .grid-item {
-  padding: 1em;
+  padding: 0;
   width: 100%;
+  position: relative;
   overflow: hidden;
+}
+
+.grid-item-body {
+  padding: 6px;
+  display: block;
+}
+
+.posts-link {
+  padding: 6vw;
 }
 
 @media screen and (min-width: 23.438em) and (max-width: 49.999em) {}
