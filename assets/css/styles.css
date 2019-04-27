@@ -7481,9 +7481,17 @@ a.text-dark:hover, a.text-dark:focus {
   color: #17a2b8; }
 
 .grid-item {
-  padding: 1em;
+  padding: 0;
   width: 100%;
+  position: relative;
   overflow: hidden; }
+
+.grid-item-body {
+  padding: 6px;
+  display: block; }
+
+.posts-link {
+  padding: 6vw; }
 
 @media screen and (min-width: 50em) {
   .grid {
