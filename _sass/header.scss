@@ -1,3 +1,15 @@
-.theme-header {
-  // background-color: $cyan;
+.yoyoyo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw;
+
+  .yoyoyo-header-main {
+    display: flex;
+    align-items: center;
+
+    a.yoyoyo-header-main-logo {
+      margin-right: 2vw;
+    }
+  }
 }
