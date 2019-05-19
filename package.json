@@ -6,8 +6,8 @@
   "author": "hertz <zhangheorg@outlook.com>",
   "license": "MIT",
   "engines": {
-    "node": ">=11.10",
-    "npm": ">=6.7"
+    "node": ">=10.15.3",
+    "npm": ">=6.4.1"
   },
   "scripts": {
     "cz": "git add . && npx git-cz",
