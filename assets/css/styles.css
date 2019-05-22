@@ -7490,6 +7490,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   opacity: 0;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
   transition: opacity 0.3s; }
   body.render {
     opacity: 1; }
