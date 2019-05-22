@@ -7488,6 +7488,12 @@ a.text-dark:hover, a.text-dark:focus {
     .yoyoyo-header .yoyoyo-header-main a.yoyoyo-header-main-logo {
       margin-right: 2vw; }
 
+body {
+  opacity: 0;
+  transition: opacity 0.3s; }
+  body.render {
+    opacity: 1; }
+
 .yoyoyo-header {
   display: flex;
   justify-content: space-between;
