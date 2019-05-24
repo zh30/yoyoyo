@@ -2,14 +2,41 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vw;
+  background-color: #fff;
+  padding: 0 2vw;
+  position: relative;
 
-  .yoyoyo-header-main {
+  nav,
+  .header-contact {
     display: flex;
     align-items: center;
 
-    a.yoyoyo-header-main-logo {
-      margin-right: 2vw;
+    a {
+      color: #1c1c1c;
+      padding: 2vw 1vw;
+      font-size: 16px;
+      line-height: 24px;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &.current {
+        color: #dc7171;
+      }
     }
+  }
+
+  a.yoyoyo-header-logo {
+    padding: 2vw;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #dc7171;
   }
 }
