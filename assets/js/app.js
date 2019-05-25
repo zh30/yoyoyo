@@ -97,7 +97,7 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var rxjs_1 = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-var bodyEvent = rxjs_1.fromEvent(window, 'load');
+var bodyEvent = rxjs_1.fromEvent(document, 'DOMContentLoaded');
 var bodyAddClass = function (className) {
     var body = document.body;
     body.classList.add(className);
