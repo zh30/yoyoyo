@@ -1,6 +1,6 @@
 import { fromEvent } from 'rxjs';
 
-const bodyEvent = fromEvent(window, 'load');
+const bodyEvent = fromEvent(document, 'DOMContentLoaded');
 const bodyAddClass = (className: string) => {
   const body = document.body;
   body.classList.add(className);
