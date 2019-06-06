@@ -7516,9 +7516,16 @@ body {
   opacity: 0;
   padding-bottom: constant(safe-area-inset-bottom);
   padding-bottom: env(safe-area-inset-bottom);
-  transition: opacity 380ms; }
+  transition: opacity 480ms; }
+  body main {
+    transform: translateY(3vh);
+    opacity: 0;
+    transition: all ease-in 180ms; }
   body.render {
     opacity: 1; }
+    body.render main {
+      opacity: 1;
+      transform: translateY(0vh); }
 
 .yoyoyo-header {
   display: flex;
@@ -7570,36 +7577,3 @@ body {
 
 .posts-link {
   padding: 6vw; }
-
-@media screen and (min-width: 50em) {
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 50vw); }
-
-  .grid-item {
-    height: 50vw; }
-
-  .grid__item-subtitle * {
-    opacity: 0;
-    transform: translate3d(100px, 0, 0);
-    transition: all 0.5s cubic-bezier(0.2, 1, 0.7, 1);
-    transition-property: transform, opacity; }
-
-  .grid__item:hover .grid__item-subtitle * {
-    opacity: 1;
-    transform: translate3d(0, 0, 0); }
-
-  .grid__item:hover .grid__item-subtitle span {
-    transition-delay: 0.1s; }
-
-  .grid__item:hover .grid__item-subtitle .grid__item-link {
-    transition-delay: 0s; }
-
-  .grid__item-title {
-    font-size: 6vw; }
-
-  .grid__item-title--small {
-    font-size: 3vw; }
-
-  .grid__item-text {
-    margin-top: 2.5rem; } }
