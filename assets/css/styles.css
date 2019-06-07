@@ -7482,7 +7482,8 @@ a.text-dark:hover, a.text-dark:focus {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding: 0 2vw;
+  padding: 0;
+  margin: 0 -1vw;
   position: relative; }
   .yoyoyo-header nav,
   .yoyoyo-header .header-contact {
@@ -7490,37 +7491,47 @@ a.text-dark:hover, a.text-dark:focus {
     align-items: center; }
     .yoyoyo-header nav a,
     .yoyoyo-header .header-contact a {
-      color: #1c1c1c;
-      padding: 2vw 1vw;
-      font-size: 16px;
-      line-height: 24px; }
+      padding: 1vw;
+      font-size: 14px;
+      line-height: 24px;
+      color: #131313;
+      opacity: 0.4;
+      transition: all ease-in-out 380ms; }
       .yoyoyo-header nav a:hover,
       .yoyoyo-header .header-contact a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        opacity: 1; }
       .yoyoyo-header nav a.current,
       .yoyoyo-header .header-contact a.current {
-        color: #dc7171; }
+        opacity: 1; }
   .yoyoyo-header a.yoyoyo-header-logo {
-    padding: 2vw;
+    padding: 1vw;
     position: absolute;
     background-color: #fff;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: bold;
-    color: #dc7171; }
+    flex-shrink: 0;
+    display: block;
+    color: #131313;
+    font-size: 22px;
+    line-height: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .yoyoyo-header a.yoyoyo-header-logo:hover {
+      text-decoration: none; }
 
 body {
   opacity: 0;
+  padding: 3vw;
   padding-bottom: constant(safe-area-inset-bottom);
   padding-bottom: env(safe-area-inset-bottom);
-  transition: opacity 480ms; }
+  transition: opacity 380ms; }
   body main {
-    transform: translateY(3vh);
+    transform: translateY(1vh);
     opacity: 0;
-    transition: all ease-in 180ms; }
+    transition: all ease-in 380ms; }
   body.render {
     opacity: 1; }
     body.render main {
@@ -7532,7 +7543,8 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  padding: 0 2vw;
+  padding: 0;
+  margin: 0 -1vw;
   position: relative; }
   .yoyoyo-header nav,
   .yoyoyo-header .header-contact {
@@ -7540,27 +7552,36 @@ body {
     align-items: center; }
     .yoyoyo-header nav a,
     .yoyoyo-header .header-contact a {
-      color: #1c1c1c;
-      padding: 2vw 1vw;
-      font-size: 16px;
-      line-height: 24px; }
+      padding: 1vw;
+      font-size: 14px;
+      line-height: 24px;
+      color: #131313;
+      opacity: 0.4;
+      transition: all ease-in-out 380ms; }
       .yoyoyo-header nav a:hover,
       .yoyoyo-header .header-contact a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        opacity: 1; }
       .yoyoyo-header nav a.current,
       .yoyoyo-header .header-contact a.current {
-        color: #dc7171; }
+        opacity: 1; }
   .yoyoyo-header a.yoyoyo-header-logo {
-    padding: 2vw;
+    padding: 1vw;
     position: absolute;
     background-color: #fff;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: bold;
-    color: #dc7171; }
+    flex-shrink: 0;
+    display: block;
+    color: #131313;
+    font-size: 22px;
+    line-height: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    .yoyoyo-header a.yoyoyo-header-logo:hover {
+      text-decoration: none; }
 
 .current {
   color: #17a2b8; }
