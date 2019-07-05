@@ -1,6 +1,6 @@
 {
   "name": "yoyoyo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "repository": "https://hertzzhang@github.com/hertzZhang/yoyoyo.git",
   "author": "hertz <zhangheorg@outlook.com>",
@@ -18,14 +18,13 @@
   },
   "dependencies": {
     "animejs": "^3.0.1",
-    "rxjs": "^6.4.0"
+    "rxjs": "^6.5.2"
   },
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.1",
     "source-map-loader": "^0.2.4",
-    "ts-loader": "^5.3.3",
-    "typescript": "^3.2.4",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1"
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
   }
 }

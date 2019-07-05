@@ -1,3 +1,5 @@
+const rxPaths = require('rxjs/_esm5/path-mapping');
+const webpack = require('webpack');
 const path = require("path");
 
 module.exports = {
@@ -13,7 +15,7 @@ module.exports = {
   },
 
   // Enable sourcemaps for debugging webpack's output.
-  devtool: "source-map",
+  devtool: "cheap-source-map",
 
   // devServer: {
   //   contentBase: path.join(__dirname, "assets/js"),
@@ -26,7 +28,10 @@ module.exports = {
 
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"]
+    extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"],
+
+    // 使用 "alias" 键来解析成 ESM 分发版
+    alias: rxPaths(),
   },
 
   module: {
@@ -45,7 +50,11 @@ module.exports = {
         loader: "source-map-loader"
       }
     ]
-  }
+  },
+
+  plugins: [
+    new webpack.optimize.ModuleConcatenationPlugin()
+  ]
 
   // Other options...
 };
