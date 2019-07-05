@@ -1,5 +1,5 @@
 body {
-  opacity: 0;
+  // opacity: 0;
   padding: 3vw;
   padding-bottom: constant(safe-area-inset-bottom);
   padding-bottom: env(safe-area-inset-bottom);
@@ -8,11 +8,11 @@ body {
   main {
     transform: translateY(1vh);
     opacity: 0;
-    transition: all ease-in 380ms;
+    transition: all ease-in-out 380ms;
   }
 
   &.render {
-    opacity: 1;
+    // opacity: 1;
 
     main {
       opacity: 1;
