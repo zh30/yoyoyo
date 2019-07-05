@@ -41,6 +41,11 @@ baidu:
 ga:
   userid: UA-125234893-1
 
+twitter:
+  username: hertzZhang
+  card: summary_large_image
+  site: '@hertzZhang'
+
 defaults:
   - scope:
       path: ""

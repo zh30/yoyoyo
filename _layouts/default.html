@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{site.lang}}">
+<html lang="{{ site.lang }}">
   <head>
     {% include head.html %}
   </head>
   <body>
-    {{ content }}
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
     <script src="{{ site.baseurl }}/assets/js/app.js"></script>
     <script type="application/ld+json">
       {
@@ -21,6 +25,6 @@
         ],
         "pubDate": "{{ page.date | date_to_xmlschema }}"
       }
-  </script>
+    </script>
   </body>
 </html>
