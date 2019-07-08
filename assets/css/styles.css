@@ -7477,51 +7477,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-.yoyoyo-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-  padding: 0;
-  margin: 0 -1vw;
-  position: relative; }
-  .yoyoyo-header nav,
-  .yoyoyo-header .header-contact {
-    display: flex;
-    align-items: center; }
-    .yoyoyo-header nav a,
-    .yoyoyo-header .header-contact a {
-      padding: 1vw;
-      font-size: 14px;
-      line-height: 24px;
-      color: #131313;
-      opacity: 0.4;
-      transition: all ease-in-out 380ms; }
-      .yoyoyo-header nav a:hover,
-      .yoyoyo-header .header-contact a:hover {
-        text-decoration: none;
-        opacity: 1; }
-      .yoyoyo-header nav a.current,
-      .yoyoyo-header .header-contact a.current {
-        opacity: 1; }
-  .yoyoyo-header a.yoyoyo-header-logo {
-    padding: 1vw;
-    position: absolute;
-    background-color: #fff;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    flex-shrink: 0;
-    display: block;
-    color: #131313;
-    font-size: 22px;
-    line-height: 1em;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-    .yoyoyo-header a.yoyoyo-header-logo:hover {
-      text-decoration: none; }
-
 body {
   padding: 3vw;
   padding-bottom: constant(safe-area-inset-bottom);
@@ -7579,6 +7534,9 @@ body {
     letter-spacing: 1px; }
     .yoyoyo-header a.yoyoyo-header-logo:hover {
       text-decoration: none; }
+
+.utterances {
+  max-width: 100% !important; }
 
 .current {
   color: #17a2b8; }
