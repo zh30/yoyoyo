@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "yoyoyo"
-  spec.version       = "0.0.6"
+  spec.version       = "0.0.7"
   spec.authors       = ["Hertz Zhang"]
   spec.email         = ["zhanghelook@outlook.com"]
 
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.2"
 
-  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "bundler", "~> 0"
 end
