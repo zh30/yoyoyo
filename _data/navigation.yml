@@ -1,6 +1,6 @@
-- name: 首页
-  link: /
-- name: 文章
-  link: /blog.html
-- name: 关于我
+- name: Tags
+  link: /tags.html
+- name: Articles
+  link: /articles.html
+- name: About
   link: /about.html
