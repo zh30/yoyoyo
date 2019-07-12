@@ -44,9 +44,11 @@
     line-height: 32px;
     font-weight: bold;
     text-transform: uppercase;
+    transition: all ease-in-out 380ms;
 
     &:hover {
       text-decoration: none;
+      color: #4b5cc4;
     }
   }
 }

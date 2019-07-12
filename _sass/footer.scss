@@ -1,0 +1,27 @@
+footer {
+  padding: 0 16px;
+  position: relative;
+  background-color: #1e1e1e;
+  overflow: hidden;
+
+  .footer-github {
+    padding: 64px 0;
+    text-align: center;
+    border-bottom: 1px solid #3c3c3c;
+
+    a {
+      background-color: #4b5cc4;
+      color: #fff;
+      border-radius: 4px;
+      line-height: 48px;
+      width: 256px;
+      text-align: center;
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

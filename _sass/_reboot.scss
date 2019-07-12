@@ -7,7 +7,6 @@
 //
 // Normalize is licensed MIT. https://github.com/necolas/normalize.css
 
-
 // Document
 //
 // 1. Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
@@ -27,12 +26,23 @@ html {
   line-height: 1.15; // 3
   -webkit-text-size-adjust: 100%; // 4
   -webkit-tap-highlight-color: rgba($black, 0); // 5
+  min-height: 100%;
+  position: relative;
 }
 
 // Shim for "new" HTML5 structural elements to display correctly (IE10, older browsers)
 // TODO: remove in v5
 // stylelint-disable-next-line selector-list-comma-newline-after
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
 
@@ -52,6 +62,25 @@ body {
   color: $body-color;
   text-align: left; // 3
   background-color: $body-bg; // 2
+  min-height: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 0;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  transition: opacity 380ms;
+
+  main {
+    transform: translateY(1vh);
+    opacity: 0;
+    transition: all ease-in-out 380ms;
+    padding: 80px 16px 0;
+  }
+
+  &.render main {
+    opacity: 1;
+    transform: translateY(0vh);
+  }
 }
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.
@@ -62,7 +91,6 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
-
 
 // Content grouping
 //
@@ -75,7 +103,6 @@ hr {
   overflow: visible; // 2
 }
 
-
 //
 // Typography
 //
@@ -85,7 +112,12 @@ hr {
 // By default, `<h1>`-`<h6>` all receive top and bottom margins. We nuke the top
 // margin for easier control within type scales as it avoids margin collapsing.
 // stylelint-disable-next-line selector-list-comma-newline-after
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: $headings-margin-bottom;
 }
@@ -108,7 +140,8 @@ p {
 // 5. Prevent the text-decoration to be skipped.
 
 abbr[title],
-abbr[data-original-title] { // 1
+abbr[data-original-title] {
+  // 1
   text-decoration: underline; // 2
   text-decoration: underline dotted; // 2
   cursor: help; // 3
@@ -141,7 +174,7 @@ dt {
 }
 
 dd {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   margin-left: 0; // Undo browser default
 }
 
@@ -171,9 +204,12 @@ sup {
   vertical-align: baseline;
 }
 
-sub { bottom: -.25em; }
-sup { top: -.5em; }
-
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
 
 //
 // Links
@@ -210,7 +246,6 @@ a:not([href]):not([tabindex]) {
   }
 }
 
-
 //
 // Code
 //
@@ -232,7 +267,6 @@ pre {
   overflow: auto;
 }
 
-
 //
 // Figures
 //
@@ -241,7 +275,6 @@ figure {
   // Apply a consistent margin strategy (matches our type styles).
   margin: 0 0 1rem;
 }
-
 
 //
 // Images and content
@@ -258,7 +291,6 @@ svg {
   overflow: hidden;
   vertical-align: middle;
 }
-
 
 //
 // Tables
@@ -281,7 +313,6 @@ th {
   // closest parent with a set `text-align`.
   text-align: inherit;
 }
-
 
 //
 // Forms
@@ -355,7 +386,6 @@ input[type="checkbox"] {
   padding: 0; // 2. Remove the padding in IE 10-
 }
 
-
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -394,7 +424,7 @@ legend {
   width: 100%;
   max-width: 100%; // 1
   padding: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 1.5rem;
   line-height: inherit;
   color: inherit; // 2

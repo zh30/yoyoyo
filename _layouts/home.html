@@ -4,19 +4,9 @@ title: Home
 pagination:
   enabled: true
 ---
-<main>
-  <div class="yoyoyo-banner">
-    <div class="yoyoyo-banner-slogan">
-      <h1>YOYOYO</h1>
-      <p>all-in-one</p>
-    </div>
-    <div class="yoyoyo-banner-svg"></div>
-  </div>
-  <div class="grid">
-    {% for post in paginator.posts %}
-      {% include post-card.html %}
-    {% endfor %}
-  </div>
-  {{content}}
-  <!-- {% include pagination.html %} -->
-</main>
+
+<div class="grid">
+  {% for post in paginator.posts %} {% include post-card.html %} {% endfor %}
+</div>
+{{ content }}
+<!-- {% include pagination.html %} -->
