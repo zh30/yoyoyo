@@ -9,7 +9,8 @@
 
 # YOYOYO Jekyll 主题
 
-一个漂亮的、自适应的、适合程序员的 Jekyll 主题。
+一个漂亮的、自适应的、适合程序员的 Jekyll 主题。  
+如果您有编程能力，欢迎您为YOYOYO作出贡献，您可以进入[聊天室](https://discord.gg/WShXTpt)和大家进行沟通。
 
 ## Getting Started
 
