@@ -1,9 +1,9 @@
-const rxPaths = require('rxjs/_esm5/path-mapping');
-const webpack = require('webpack');
+const rxPaths = require("rxjs/_esm5/path-mapping");
+const webpack = require("webpack");
 const path = require("path");
 
 module.exports = {
-  mode: "development",
+  mode: process.env.NODE_ENV,
   entry: "./assets/ts/app.ts",
   output: {
     filename: "app.js",
@@ -15,7 +15,7 @@ module.exports = {
   },
 
   // Enable sourcemaps for debugging webpack's output.
-  devtool: "cheap-source-map",
+  // devtool: "cheap-source-map",
 
   // devServer: {
   //   contentBase: path.join(__dirname, "assets/js"),
@@ -28,33 +28,24 @@ module.exports = {
 
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: [".webpack.js", ".web.js", ".ts", ".tsx", ".js"],
+    extensions: [".webpack.js", ".web.js", ".ts", ".js"],
 
     // 使用 "alias" 键来解析成 ESM 分发版
-    alias: rxPaths(),
+    alias: rxPaths()
   },
 
   module: {
     rules: [
-      // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
+      // All files with a '.ts' or '.js' extension will be handled by 'babel-loader'.
       {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/
-      },
-
-      // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-      {
-        enforce: "pre",
-        test: /\.js$/,
-        loader: "source-map-loader"
+        exclude: /node_modules/,
+        test: /\.(t|j)s?$/,
+        use: "babel-loader"
       }
     ]
   },
 
-  plugins: [
-    new webpack.optimize.ModuleConcatenationPlugin()
-  ]
+  plugins: [new webpack.optimize.ModuleConcatenationPlugin()]
 
   // Other options...
 };
