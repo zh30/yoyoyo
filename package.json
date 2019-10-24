@@ -14,6 +14,7 @@
     "webpack": "NODE_ENV=production webpack --watch",
     "start": "yarn webpack & yarn serve & wait",
     "serve": "bundle exec jekyll serve",
+    "init": "bundle install",
     "build": "gem build script/yoyoyo.gemspec"
   },
   "dependencies": {
