@@ -36,8 +36,10 @@ jobs:
             exit 1
           fi
           gem build script/yoyoyo.gemspec
-      - name: GitHub Pages Deploy
-        uses: maxheld83/ghpages@v0.2.1
+      - name: Deploy action for GitHub Pages
+        uses: peaceiris/actions-gh-pages@v2.5.0
         env:
-          BUILD_DIR: "_site/"
-          secrets: ["GH_PAT"]
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./_site
+
