@@ -21,10 +21,6 @@ jobs:
           set -e
           gem install bundler
           bundle install
-      - name: Jekyll Build
-        run: |
-          set -e
-          bundle exec jekyll build
       - name: Build Gem file
         run: |
           set -e
@@ -35,7 +31,10 @@ jobs:
             echo "Huh. That's odd. The example site doesn't seem to build."
             exit 1
           fi
-          gem build script/yoyoyo.gemspec
+      - name: Jekyll Build
+        run: |
+          set -e
+          bundle exec jekyll build
       - name: Deploy action for GitHub Pages
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
