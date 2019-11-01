@@ -28,9 +28,9 @@ jobs:
       - name: Build Gem file
         run: |
           set -e
-          if test -e "./_site/index.html";then
+          if test -e "./gphome/index.html";then
             echo "It builds!"
-            rm -Rf _site
+            rm -Rf gphome
           else
             echo "Huh. That's odd. The example site doesn't seem to build."
             exit 1
@@ -41,5 +41,5 @@ jobs:
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./_site
+          PUBLISH_DIR: ./gphome
 
