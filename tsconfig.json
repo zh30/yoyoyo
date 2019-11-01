@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./assets/js/",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "allowJs": true,
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["./assets/ts/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

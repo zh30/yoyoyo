@@ -1,0 +1,41 @@
+{
+  "name": "yoyoyo",
+  "version": "0.0.3",
+  "private": true,
+  "repository": "https://hertzzhang@github.com/hertzZhang/yoyoyo.git",
+  "author": "hertz <zhangheorg@outlook.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.15.3",
+    "npm": ">=6.4.1"
+  },
+  "scripts": {
+    "cz": "git add . && npx git-cz",
+    "webpack": "NODE_ENV=production webpack --watch",
+    "start": "yarn webpack & yarn serve & wait",
+    "serve": "bundle exec jekyll serve",
+    "init": "bundle install",
+    "build": "gem build script/yoyoyo.gemspec"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "animejs": "^3.1.0",
+    "core-js": "^3.3.3",
+    "rxjs": "^6.5.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://zhanghe.org/yoyoyo/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zhanghe.org/yoyoyo/" rel="alternate" type="text/html" hreflang="zh" /><updated>2019-11-01T06:31:27+00:00</updated><id>https://zhanghe.org/yoyoyo/feed.xml</id><title type="html">yoyoyo</title><subtitle>Jekyll 主题。</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;hertzZhang&quot;}</name></author><entry><title type="html">React Context</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/07/08/react-context.html" rel="alternate" type="text/html" title="React Context" /><published>2019-07-08T00:00:00+00:00</published><updated>2019-07-08T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/07/08/react-context</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/07/08/react-context.html">&lt;h2 id=&quot;react-context-tutorial&quot;&gt;React Context Tutorial&lt;/h2&gt;</content><author><name>hertz</name></author><category term="hot" /><category term="init" /><summary type="html">Cargo</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Rust Cargo</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo.html" rel="alternate" type="text/html" title="Rust Cargo" /><published>2019-06-19T00:00:00+00:00</published><updated>2019-06-19T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo.html">&lt;h2 id=&quot;rust-cargo-使用命令&quot;&gt;RUST cargo 使用命令&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt; // 查看 cargo 的版本
+cargo build // 构建项目并运行它
+cargo build &lt;span class=&quot;nt&quot;&gt;--release&lt;/span&gt; // 优化编辑
+cargo run // 执行项目
+cargo check // 快速检查您的代码以确保它编译但不生成可执行文件
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>hertz</name></author><category term="hot" /><category term="init" /><summary type="html">Cargo</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Git Rebash</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/16/git-rebash.html" rel="alternate" type="text/html" title="Git Rebash" /><published>2019-05-16T00:00:00+00:00</published><updated>2019-05-16T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/16/git-rebash</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/16/git-rebash.html">&lt;h2 id=&quot;git-rebash-的操作流程&quot;&gt;git rebash 的操作流程&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;git rebase -i 《目标分支》&lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>hertz</name></author><category term="hot" /><category term="init" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Git Password Question</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/13/git-password-question.html" rel="alternate" type="text/html" title="Git Password Question" /><published>2019-05-13T00:00:00+00:00</published><updated>2019-05-13T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/13/git-password-question</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/13/git-password-question.html">&lt;h1 id=&quot;解决git操作时强制输入用户名密码的问题&quot;&gt;解决git操作时强制输入用户名密码的问题&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;首先进入自己项目的根目录&lt;/li&gt;
+  &lt;li&gt;输入下面的命令
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper store
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;再一次输入要执行的git操作（第一次需要输入密码，以后就不需要了）&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>hertz</name></author><category term="yarn" /><category term="nvm" /><category term="node" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Node Version Vscode</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/05/node-version-vscode.html" rel="alternate" type="text/html" title="Node Version Vscode" /><published>2019-05-05T00:00:00+00:00</published><updated>2019-05-05T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/05/node-version-vscode</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/05/node-version-vscode.html">&lt;h1 id=&quot;vs-code-在nvm下的nodejs版本控制问题&quot;&gt;VS Code 在NVM下的Nodejs版本控制问题&lt;/h1&gt;
+&lt;p&gt;解决办法如下：&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm &lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;default 7.8.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>hertz</name></author><category term="vscode" /><category term="nvm" /><category term="node-version" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Nvm Yarn</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/05/nvm-yarn.html" rel="alternate" type="text/html" title="Nvm Yarn" /><published>2019-05-05T00:00:00+00:00</published><updated>2019-05-05T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/05/nvm-yarn</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/05/05/nvm-yarn.html">&lt;h1 id=&quot;error-invalid-option-without-node&quot;&gt;Error: invalid option: –without-node&lt;/h1&gt;
+&lt;p&gt;当你用nvm的时候，安装yarn通常会执行这个命令：&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;yarn &lt;span class=&quot;nt&quot;&gt;--without-node&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;但是&lt;br /&gt;
+目前（2019-05-05）在Mac系统下出现这个错误&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Error: invalid option: &lt;span class=&quot;nt&quot;&gt;--without-node&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;解决办法直接解决这个就可以了：&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;yarn &lt;span class=&quot;nt&quot;&gt;--ignore-dependencies&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;官方的解决办法是先正常安装yarn，然后在用brew强制覆盖yarn所带的node环境。&lt;/p&gt;</content><author><name>hertz</name></author><category term="yarn" /><category term="nvm" /><category term="node" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">&amp;amp;&amp;amp;||</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/&&.html" rel="alternate" type="text/html" title="&amp;&amp;||" /><published>2019-03-08T00:00:00+00:00</published><updated>2019-03-08T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/&amp;&amp;%7C%7C</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/&amp;&amp;.html">&lt;h1 id=&quot;操作符和操作符&quot;&gt;&amp;amp;&amp;amp;操作符和||操作符&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;amp;&amp;amp; 在&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;之前执行&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&amp;amp;&amp;amp; 找假值&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;找真值&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>hertz</name></author><category term="hot" /><category term="init" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Function Name</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html" rel="alternate" type="text/html" title="Function Name" /><published>2019-03-08T00:00:00+00:00</published><updated>2019-03-08T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html">&lt;h2 id=&quot;函数命名&quot;&gt;函数命名&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“get…” —— 返回值，&lt;/li&gt;
+  &lt;li&gt;“calc…” —— 计算&lt;/li&gt;
+  &lt;li&gt;“create…” —— 创建，&lt;/li&gt;
+  &lt;li&gt;“check…” —— 检查并返回 boolean 值&lt;/li&gt;
+  &lt;li&gt;“show…” —— 显示。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;分解函数&quot;&gt;分解函数&lt;/h2&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showPrimes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isPrime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// a prime&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isPrime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;函数表达式&quot;&gt;函数表达式&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;在代码块的结尾是不需要 ;，像 if { … }，for { }，function f { } 等语法结构后面都不用加。&lt;/li&gt;
+  &lt;li&gt;函数表达式通常这样声明： let sayHi = …;，作为一个变量。 而不是代码块。不管什么值，建议在语句结尾处建议使用分号 ;。所以这里的分号与函数表达式本身没有任何关系，它只是终止了语句。&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>hertz</name></author><category term="hot" /><category term="init" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Init</title><link href="https://zhanghe.org/yoyoyo/blog/tutorial/2019/02/22/init.html" rel="alternate" type="text/html" title="Init" /><published>2019-02-22T00:00:00+00:00</published><updated>2019-02-22T00:00:00+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/tutorial/2019/02/22/init</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/tutorial/2019/02/22/init.html">&lt;h1 id=&quot;initialize-website-information&quot;&gt;Initialize website information&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm completion &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.bashrc
+npm completion &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; ~/.zshrc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>hertz</name></author><category term="hot" /><category term="init" /><summary type="html">Initialize website information</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry><entry><title type="html">Welcome to zhangheorg!</title><link href="https://zhanghe.org/yoyoyo/blog/travel/2019/01/21/welcome.html" rel="alternate" type="text/html" title="Welcome to zhangheorg!" /><published>2019-01-21T08:47:27+00:00</published><updated>2019-01-21T08:47:27+00:00</updated><id>https://zhanghe.org/yoyoyo/blog/travel/2019/01/21/welcome</id><content type="html" xml:base="https://zhanghe.org/yoyoyo/blog/travel/2019/01/21/welcome.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>jill</name></author><category term="hot" /><category term="summer" /><summary type="html">To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png" /></entry></feed>
