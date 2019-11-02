@@ -1,4 +1,5 @@
 const rxPaths = require("rxjs/_esm5/path-mapping");
+const workboxPlugin = require("workbox-webpack-plugin");
 const webpack = require("webpack");
 const path = require("path");
 
@@ -45,7 +46,14 @@ module.exports = {
     ]
   },
 
-  plugins: [new webpack.optimize.ModuleConcatenationPlugin()]
+  plugins: [
+    new webpack.optimize.ModuleConcatenationPlugin(),
+    new workboxPlugin.GenerateSW({
+      swDest: "sw.js",
+      clientsClaim: true,
+      skipWaiting: true
+    })
+  ]
 
   // Other options...
 };
