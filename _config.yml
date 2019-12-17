@@ -70,7 +70,7 @@ theme: minima
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
 

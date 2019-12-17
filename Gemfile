@@ -22,7 +22,7 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-sitemap', "~> 1.2"
-  gem "jekyll-feed", "~> 0.11"
+  # gem "jekyll-feed", "~> 0.11"
   gem 'jekyll-seo-tag', "~> 2.5"
   gem 'jekyll-paginate', "~> 1.1"
 end
