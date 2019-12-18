@@ -50,8 +50,8 @@ twitter:
 
 defaults:
   - scope:
-      path: ""
-      type: "authors"
+      path: "_authors"
+      type: "posts"
     values:
       layout: "author"
   - scope:
