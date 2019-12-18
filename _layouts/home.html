@@ -8,5 +8,4 @@ pagination:
 <div class="grid">
   {% for post in paginator.posts %} {% include post-card.html %} {% endfor %}
 </div>
-{{ content }}
-<!-- {% include pagination.html %} -->
+{{ content }} {% include pagination.html %}
