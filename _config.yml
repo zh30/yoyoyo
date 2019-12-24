@@ -18,12 +18,15 @@ repo: hertzZhang/yoyoyo
 email: zhanghelook@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jekyll 主题。
-excerpt_separator: true
+excerpt_separator: "true"
 baseurl: "/yoyoyo" # the subpath of your site, e.g. /blog
 url: "https://zhanghe.org" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
 paginate: 10
 paginate_path: "/page/:num"
+metaAuthor: "张赫"
+blogName: "YOYOYO"
+appTitle: "YOYOYO 主题"
 twitter_username: hertzZhang
 github_username: hertzZhang
 destination: "./gphome"
