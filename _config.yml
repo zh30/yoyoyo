@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: yoyoyo
-repo: hertzZhang/yoyoyo
+repo: zhanghecool/yoyoyo
 email: zhanghelook@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jekyll 主题。
@@ -27,8 +27,8 @@ paginate_path: "/page/:num"
 metaAuthor: "张赫"
 blogName: "YOYOYO"
 appTitle: "YOYOYO 主题"
-twitter_username: hertzZhang
-github_username: hertzZhang
+twitter_username: zhanghecool
+github_username: zhanghecool
 destination: "./gphome"
 collections:
   authors:
@@ -38,7 +38,7 @@ collections:
     # people: true
 
 author:
-  twitter: hertzZhang
+  twitter: zhanghecool
 
 baidu:
   appid: 1612867930592980
@@ -47,9 +47,9 @@ ga:
   userid: UA-125234893-1
 
 twitter:
-  username: hertzZhang
+  username: zhanghecool
   card: summary_large_image
-  site: "@hertzZhang"
+  site: "@zhanghecool"
 
 defaults:
   - scope:
