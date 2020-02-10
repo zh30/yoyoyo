@@ -15,13 +15,13 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 <meta name="author" content="{{ site.metaAuthor}}" />
 <meta name="robots" content="index,follow" />
 <meta name="referrer" content="origin-when-cross-origin" />
-<meta name="theme-color" content="#4B5CC4" />
+<meta name="theme-color" content="{{ site.themeColor }}" />
 <meta name="application-name" content="{{site.blogName}}" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="white" />
 <meta name="apple-mobile-web-app-title" content="{{site.appTitle}}" />
 <meta name="msapplication-tooltip" content="{{site.description}}" />
-<meta name="msapplication-TileColor" content="#4B5CC4" />
+<meta name="msapplication-TileColor" content="{{ site.themeColor }}" />
 <meta
   name="msapplication-TileImage"
   content="{{ site.baseurl }}/assets/icon/apple-icon-144x144.png"
@@ -102,10 +102,7 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
   href="{{ site.baseurl }}/assets/icon/favicon-16x16.png"
 />
 <link rel="manifest" href="{{ site.baseurl }}/manifest.json" />
-<link
-  rel="stylesheet"
-  href="{{ site.baseurl }}/assets/css/styles.css"
-/>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css" />
 {% seo %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script
