@@ -23,7 +23,7 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="white" />
 <meta name="apple-mobile-web-app-title" content="YOYOYO 主题" />
-<meta name="msapplication-tooltip" content="Jekyll 主题。" />
+<meta name="msapplication-tooltip" content="Jekyll 主题 - yoyoyo" />
 <meta name="msapplication-TileColor" content="#4B5CC4" />
 <meta
   name="msapplication-TileImage"
@@ -126,7 +126,7 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 <meta name="twitter:site" content="@zhanghecool" />
 <meta name="twitter:creator" content="@hertz" />
 <script type="application/ld+json">
-{"datePublished":"2019-06-19T00:00:00+00:00","description":"Cargo","author":{"@type":"Person","name":"hertz"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo.html"},"@type":"BlogPosting","image":"https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png","url":"https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo.html","headline":"Rust Cargo","dateModified":"2019-06-19T00:00:00+00:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"hertz"},"description":"Cargo","image":"https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo.html"},"@type":"BlogPosting","url":"https://zhanghe.org/yoyoyo/blog/tutorial/rust/2019/06/19/rust-cargo.html","headline":"Rust Cargo","dateModified":"2019-06-19T00:00:00+00:00","datePublished":"2019-06-19T00:00:00+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -151,7 +151,14 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
   </head>
   <body>
     <header class="yoyoyo-header">
-  <a class="yoyoyo-header-logo" href="/yoyoyo/">yoyoyo</a>
+  <div class="header-description">Jekyll 主题 - yoyoyo</div>
+  <a
+    class="yoyoyo-header-logo"
+    title="yoyoyo"
+    href="/yoyoyo/"
+  >
+    <img src="/yoyoyo/assets/icon/logo.svg" alt="yoyoyo" />
+  </a>
   <nav>
   
     <a class="" href="/yoyoyo/tags.html">
@@ -170,17 +177,25 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 </header>
 
     <main>
-      <h1>Rust Cargo</h1>
+      <section class="post-header">
+  <div class="post-title-wrap">
+    <h1>Rust Cargo</h1>
 
-<p>
-  19 Jun 2019
+    <p>
+      19 Jun 2019   -
+      <a href="/yoyoyo/authors/hertz.html">张赫</a>
+      
+    </p>
+  </div>
   
-   -
-  <a href="/yoyoyo/authors/hertz.html">张赫</a>
+  <div
+    class="post-image-wrap"
+    style="background-image: url(/yoyoyo/assets/images/wxmp.png)"
+  ></div>
   
-</p>
-
-<h2 id="rust-cargo-使用命令">RUST cargo 使用命令</h2>
+</section>
+<section class="post-main">
+  <h2 id="rust-cargo-使用命令">RUST cargo 使用命令</h2>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cargo <span class="nt">--version</span> // 查看 cargo 的版本
 cargo build // 构建项目并运行它
@@ -190,25 +205,39 @@ cargo check // 快速检查您的代码以确保它编译但不生成可执行�
 
 </code></pre></div></div>
 
-
-<script
-  src="https://utteranc.es/client.js"
-  repo="zhanghecool/yoyoyo"
-  issue-term="pathname"
-  label="comment"
-  theme="github-light"
-  crossorigin="anonymous"
-  async
-></script>
+</section>
+<section class="post-utteranc">
+  <script
+    src="https://utteranc.es/client.js"
+    repo="zhanghecool/yoyoyo"
+    issue-term="pathname"
+    label="comment"
+    theme="github-light"
+    crossorigin="anonymous"
+    async
+  ></script>
+</section>
 
     </main>
     <footer>
-  <div class="footer-github">
-    <a href="https://github.com/hertzZhang/yoyoyo" target="_blank" rel="noopener noreferrer">Star</a>
+  <div class="footer-nav">
+    <nav>
+  
+    <a class="" href="/yoyoyo/tags.html">
+      Tags
+    </a>
+  
+    <a class="" href="/yoyoyo/articles.html">
+      Articles
+    </a>
+  
+    <a class="" href="/yoyoyo/about.html">
+      About
+    </a>
+  
+</nav>
   </div>
-  <div class="footer-info">
-
-  </div>
+  <div class="footer-info"></div>
 </footer>
 
     <script src="/yoyoyo/assets/js/app.js"></script>

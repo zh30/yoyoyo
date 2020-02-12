@@ -23,7 +23,7 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="white" />
 <meta name="apple-mobile-web-app-title" content="YOYOYO 主题" />
-<meta name="msapplication-tooltip" content="Jekyll 主题。" />
+<meta name="msapplication-tooltip" content="Jekyll 主题 - yoyoyo" />
 <meta name="msapplication-TileColor" content="#4B5CC4" />
 <meta
   name="msapplication-TileImage"
@@ -126,7 +126,7 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 <meta name="twitter:site" content="@zhanghecool" />
 <meta name="twitter:creator" content="@hertz" />
 <script type="application/ld+json">
-{"datePublished":"2019-03-08T00:00:00+00:00","description":"Initialize website information","author":{"@type":"Person","name":"hertz"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html"},"@type":"BlogPosting","image":"https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png","url":"https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html","headline":"Function Name","dateModified":"2019-03-08T00:00:00+00:00","@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"hertz"},"description":"Initialize website information","image":"https://zhanghe.org/yoyoyo/yoyoyo/assets/images/wxmp.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html"},"@type":"BlogPosting","url":"https://zhanghe.org/yoyoyo/blog/tutorial/2019/03/08/function-name.html","headline":"Function Name","dateModified":"2019-03-08T00:00:00+00:00","datePublished":"2019-03-08T00:00:00+00:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -151,7 +151,14 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
   </head>
   <body>
     <header class="yoyoyo-header">
-  <a class="yoyoyo-header-logo" href="/yoyoyo/">yoyoyo</a>
+  <div class="header-description">Jekyll 主题 - yoyoyo</div>
+  <a
+    class="yoyoyo-header-logo"
+    title="yoyoyo"
+    href="/yoyoyo/"
+  >
+    <img src="/yoyoyo/assets/icon/logo.svg" alt="yoyoyo" />
+  </a>
   <nav>
   
     <a class="" href="/yoyoyo/tags.html">
@@ -170,17 +177,25 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
 </header>
 
     <main>
-      <h1>Function Name</h1>
+      <section class="post-header">
+  <div class="post-title-wrap">
+    <h1>Function Name</h1>
 
-<p>
-  08 Mar 2019
+    <p>
+      08 Mar 2019   -
+      <a href="/yoyoyo/authors/hertz.html">张赫</a>
+      
+    </p>
+  </div>
   
-   -
-  <a href="/yoyoyo/authors/hertz.html">张赫</a>
+  <div
+    class="post-image-wrap"
+    style="background-image: url(/yoyoyo/assets/images/wxmp.png)"
+  ></div>
   
-</p>
-
-<h2 id="函数命名">函数命名</h2>
+</section>
+<section class="post-main">
+  <h2 id="函数命名">函数命名</h2>
 
 <ul>
   <li>“get…” —— 返回值，</li>
@@ -215,25 +230,39 @@ shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
   <li>函数表达式通常这样声明： let sayHi = …;，作为一个变量。 而不是代码块。不管什么值，建议在语句结尾处建议使用分号 ;。所以这里的分号与函数表达式本身没有任何关系，它只是终止了语句。</li>
 </ul>
 
-
-<script
-  src="https://utteranc.es/client.js"
-  repo="zhanghecool/yoyoyo"
-  issue-term="pathname"
-  label="comment"
-  theme="github-light"
-  crossorigin="anonymous"
-  async
-></script>
+</section>
+<section class="post-utteranc">
+  <script
+    src="https://utteranc.es/client.js"
+    repo="zhanghecool/yoyoyo"
+    issue-term="pathname"
+    label="comment"
+    theme="github-light"
+    crossorigin="anonymous"
+    async
+  ></script>
+</section>
 
     </main>
     <footer>
-  <div class="footer-github">
-    <a href="https://github.com/hertzZhang/yoyoyo" target="_blank" rel="noopener noreferrer">Star</a>
+  <div class="footer-nav">
+    <nav>
+  
+    <a class="" href="/yoyoyo/tags.html">
+      Tags
+    </a>
+  
+    <a class="" href="/yoyoyo/articles.html">
+      Articles
+    </a>
+  
+    <a class="" href="/yoyoyo/about.html">
+      About
+    </a>
+  
+</nav>
   </div>
-  <div class="footer-info">
-
-  </div>
+  <div class="footer-info"></div>
 </footer>
 
     <script src="/yoyoyo/assets/js/app.js"></script>
