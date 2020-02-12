@@ -1,26 +1,33 @@
 footer {
-  padding: 0 16px;
+  padding: 0 80px;
   position: relative;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   overflow: hidden;
 
-  .footer-github {
+  .footer-nav {
     padding: 64px 0;
     text-align: center;
-    border-bottom: 1px solid #3c3c3c;
 
-    a {
-      background-color: #4b5cc4;
-      color: #fff;
-      border-radius: 4px;
-      line-height: 48px;
-      width: 256px;
-      text-align: center;
-      display: inline-block;
+    nav {
+      display: flex;
+      align-items: center;
 
-      &:hover {
-        text-decoration: none;
-        cursor: pointer;
+      a {
+        padding: 0 8px;
+        font-size: 16px;
+        line-height: 32px;
+        color: #3a3a3a;
+        opacity: 0.4;
+        transition: all ease-in-out 380ms;
+
+        &:hover {
+          text-decoration: none;
+          opacity: 1;
+        }
+
+        &.current {
+          opacity: 1;
+        }
       }
     }
   }

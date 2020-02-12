@@ -5,7 +5,10 @@ pagination:
   enabled: true
 ---
 
-<div class="grid">
+<div class="home-list">
   {% for post in paginator.posts %} {% include post-card.html %} {% endfor %}
 </div>
-{{ content }} {% include pagination.html %}
+{{ content }}
+<div class="home-pagination">
+  {% include pagination.html %}
+</div>

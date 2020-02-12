@@ -2,24 +2,35 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<section class="post-header">
+  <div class="post-title-wrap">
+    <h1>{{ page.title }}</h1>
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %} -
-  <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
+    <p>
+      {{ page.date | date_to_string }} {% assign author = site.authors | where:
+      'short_name', page.author | first %} {% if author %} -
+      <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
+      {% endif %}
+    </p>
+  </div>
+  {% if page.image %}
+  <div
+    class="post-image-wrap"
+    style="background-image: url({{ page.image }})"
+  ></div>
   {% endif %}
-</p>
-
-{{ content }}
-
-<script
-  src="https://utteranc.es/client.js"
-  repo="{{ site.repo }}"
-  issue-term="pathname"
-  label="comment"
-  theme="github-light"
-  crossorigin="anonymous"
-  async
-></script>
+</section>
+<section class="post-main">
+  {{ content }}
+</section>
+<section class="post-utteranc">
+  <script
+    src="https://utteranc.es/client.js"
+    repo="{{ site.repo }}"
+    issue-term="pathname"
+    label="comment"
+    theme="github-light"
+    crossorigin="anonymous"
+    async
+  ></script>
+</section>

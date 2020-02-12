@@ -1,4 +1,11 @@
 <header class="yoyoyo-header">
-  <a class="yoyoyo-header-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="header-description">{{ site.description }}</div>
+  <a
+    class="yoyoyo-header-logo"
+    title="{{ site.title }}"
+    href="{{ site.baseurl }}/"
+  >
+    <img src="{{ site.baseurl }}/assets/icon/logo.svg" alt="{{ site.title }}" />
+  </a>
   {% include navigation.html %}
 </header>

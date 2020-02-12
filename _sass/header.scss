@@ -1,19 +1,25 @@
 .yoyoyo-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  // flex-wrap: wrap;
-  background-color: #fff;
-  padding: 16px;
-  z-index: 10;
+  .header-description {
+    font-size: 11px;
+    line-height: 1.4;
+    position: fixed;
+    z-index: 2;
+    top: 55px;
+    left: 33px;
+    max-width: 400px;
+    height: 100px;
+    cursor: default;
+    transform: rotate(-90deg) translate(-100%, 0%);
+    transform-origin: 0 0;
+    text-align: right;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
 
   nav,
   .header-contact {
-    display: flex;
+    // display: flex;
+    display: none;
     align-items: center;
 
     a {
@@ -36,19 +42,18 @@
   }
 
   a.yoyoyo-header-logo {
+    position: absolute;
+    z-index: 9999;
+    height: 45px;
+    left: 80px;
+    top: 55px;
     padding: 0;
     flex-shrink: 0;
     display: block;
-    color: #131313;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
     transition: all ease-in-out 380ms;
 
-    &:hover {
-      text-decoration: none;
-      color: #4b5cc4;
+    > img {
+      height: 100%;
     }
   }
 }

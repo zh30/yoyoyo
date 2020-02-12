@@ -17,7 +17,7 @@ title: yoyoyo
 repo: zhanghecool/yoyoyo
 email: zhanghelook@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Jekyll 主题。
+  Jekyll 主题 - yoyoyo
 excerpt_separator: "true"
 themeColor: "#4B5CC4"
 baseurl: "/yoyoyo" # the subpath of your site, e.g. /blog
@@ -31,6 +31,7 @@ appTitle: "YOYOYO 主题"
 twitter_username: zhanghecool
 github_username: zhanghecool
 destination: "./gphome"
+use_math: true
 collections:
   authors:
     output: true
