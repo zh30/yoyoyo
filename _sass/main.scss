@@ -53,14 +53,17 @@
   display: block;
 }
 
-.home-list,
-.home-pagination {
+.home-list {
   padding: 0 80px;
+}
+
+.home-pagination {
+  padding: 0;
 }
 
 .post-item {
   position: relative;
-  min-height: 600px;
+  min-height: 800px;
 
   .post-item-body {
     display: flex;
@@ -88,7 +91,7 @@
       flex-direction: column;
       justify-content: center;
 
-      > * {
+      .posts-body {
         padding: 0 40px;
       }
 
@@ -96,6 +99,8 @@
         font-size: 60px;
         line-height: 1.1;
         color: #000;
+        transition: background-size ease-in-out 580ms;
+        background: linear-gradient(#000, #000) no-repeat left 87%/0 30%;
       }
 
       .posts-description {
@@ -118,6 +123,7 @@
 
       .posts-title {
         text-decoration: underline;
+        // background-size: 97% 30%;
       }
     }
   }
@@ -127,7 +133,7 @@
       flex-direction: row-reverse;
 
       .posts-content {
-        > * {
+        .posts-body {
           text-align: right;
         }
       }
@@ -140,10 +146,96 @@
     height: 100vh;
 
     .posts-content {
-      > * {
+      .posts-body {
         text-align: left !important;
         padding: 0 80px !important;
       }
     }
+  }
+}
+
+.list-pagination {
+  display: flex;
+  align-items: center;
+
+  .pagination-arrow {
+    flex: 1;
+    padding: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0f0f0f;
+
+    img {
+      width: 40px;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .post-item {
+    margin-bottom: 20px;
+
+    .post-item-body {
+      flex-direction: column !important;
+
+      .posts-image,
+      .posts-content {
+        width: 100%;
+        min-height: initial !important;
+        height: initial !important;
+      }
+
+      .posts-image {
+        flex: 1 !important;
+      }
+
+      .posts-content {
+        flex: initial !important;
+        padding: 40px 0;
+      }
+
+      .posts-content .posts-body > * {
+        text-align: center !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .post-item {
+    margin-bottom: 20px;
+
+    &:first-child {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+
+    .post-item-body {
+      .posts-content {
+        padding: 40px 0;
+
+        .posts-body {
+          padding: 0 20px !important;
+        }
+      }
+    }
+  }
+
+  .home-list {
+    padding: 0 20px;
+  }
+
+  .pagination-arrow {
+    padding: 40px 20px !important;
   }
 }

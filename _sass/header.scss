@@ -57,3 +57,15 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  a.yoyoyo-header-logo {
+    left: 30px !important;
+    top: 33px !important;
+  }
+
+  .header-description {
+    top: 33px !important;
+    left: 2px !important;
+  }
+}
