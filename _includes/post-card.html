@@ -4,11 +4,11 @@
       <div class="posts-image" data-aos="fade-in" itemprop="image" title="{{ post.title }}" style="background-image: url({{ post.image }})"></div>
     {% endif %}
     <div class="posts-content">
-      <h2 class="posts__text" itemprop="name">{{ post.title }}</h2>
+      <h2 class="posts-title" itemprop="name">{{ post.title }}</h2>
       {% if post.description %}
-        <p itemprop="description">{{ post.description }}</p itemprop="description">
+        <p class="posts-description" itemprop="description">{{ post.description }}</p itemprop="description">
       {% endif %}
-      <p>
+      <p class="posts-author">
         {{ post.date | date_to_string }} {% assign author = site.authors | where:
         'short_name', post.author | first %} {% if author %} - {{ author.name }}
         {% endif %}

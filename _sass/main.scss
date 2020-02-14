@@ -60,19 +60,21 @@
 
 .post-item {
   position: relative;
-  min-height: 800px;
+  min-height: 600px;
 
   .post-item-body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: inherit;
+    height: inherit;
     background-color: #f9f9f9;
 
     .posts-image,
     .posts-content {
       flex: 1;
       min-height: inherit;
+      height: inherit;
     }
 
     .posts-image {
@@ -88,6 +90,34 @@
 
       > * {
         padding: 0 40px;
+      }
+
+      .posts-title {
+        font-size: 60px;
+        line-height: 1.1;
+        color: #000;
+      }
+
+      .posts-description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #0f0f0f;
+        margin: 20px 0 15px;
+      }
+
+      .posts-author {
+        font-size: 15px;
+        line-height: 1.5;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+
+    &:hover {
+      text-decoration: none;
+
+      .posts-title {
+        text-decoration: underline;
       }
     }
   }
@@ -107,7 +137,7 @@
   &:first-child {
     margin-left: -80px;
     margin-right: -80px;
-    min-height: 100vh;
+    height: 100vh;
 
     .posts-content {
       > * {

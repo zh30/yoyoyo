@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 excerpt_separator: "true"
 themeColor: "#4B5CC4"
 baseurl: "/yoyoyo" # the subpath of your site, e.g. /blog
-url: "https://zhanghe.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zhanghe.cool" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
 paginate: 10
 paginate_path: "/page/:num"
