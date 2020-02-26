@@ -32,3 +32,14 @@ footer {
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  footer {
+    padding: 0 20px;
+
+    .footer-nav {
+      padding: 24px 0;
+    }
+  }
+}

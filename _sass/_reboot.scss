@@ -71,7 +71,7 @@ body {
   transition: opacity 380ms;
 
   main {
-    transform: translateY(1vh);
+    // transform: translateY(1vh);
     opacity: 0;
     transition: all ease-in-out 380ms;
     // padding: 80px 16px 0;
@@ -81,7 +81,7 @@ body {
 
   &.render main {
     opacity: 1;
-    transform: translateY(0vh);
+    // transform: translateY(0vh);
   }
 }
 

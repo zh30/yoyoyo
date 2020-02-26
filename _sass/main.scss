@@ -8,29 +8,9 @@
 }
 
 .post-header {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-
-  .post-title-wrap,
-  .post-image-wrap {
-    flex: 1;
-    height: 100%;
-  }
-
-  .post-title-wrap {
-    display: flex;
-    justify-content: center;
-    // align-items: center;
-    flex-direction: column;
-    padding: 0 80px;
-  }
-
-  .post-image-wrap {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .post-utteranc {
@@ -227,6 +207,10 @@
         .posts-body {
           padding: 0 20px !important;
         }
+
+        .posts-title {
+          font-size: 26px;
+        }
       }
     }
   }
@@ -237,5 +221,13 @@
 
   .pagination-arrow {
     padding: 40px 20px !important;
+  }
+
+  .post-main {
+    padding: 30px 20px;
+  }
+
+  .post-utteranc {
+    padding: 20px 16px;
   }
 }

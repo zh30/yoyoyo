@@ -2,23 +2,30 @@
 layout: default
 ---
 
-<section class="post-header">
-  <div class="post-title-wrap">
-    <h1>{{ page.title }}</h1>
-
-    <p>
-      {{ page.date | date_to_string }} {% assign author = site.authors | where:
-      'short_name', page.author | first %} {% if author %} -
-      <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
-      {% endif %}
-    </p>
+<section class="post-item post-header">
+  <div class="post-item-body posts-link">
+    {% if page.image %}
+    <div
+      class="posts-image"
+      data-aos="fade-in"
+      title="{{ page.title }}"
+      style="background-image: url({{ page.image }})"
+    ></div>
+    {% endif %}
+    <div class="posts-content">
+      <div class="posts-body">
+        <h2 class="posts-title" itemprop="name">{{ page.title }}</h2>
+        {% if page.description %}
+        <p class="posts-description">{{ page.description }}</p>
+        {% endif %}
+        <p class="posts-author">
+          {{ page.date | date_to_string }} {% assign author = site.authors |
+          where: 'short_name', page.author | first %} {% if author %} - {{
+          author.name }} {% endif %}
+        </p>
+      </div>
+    </div>
   </div>
-  {% if page.image %}
-  <div
-    class="post-image-wrap"
-    style="background-image: url({{ page.image }})"
-  ></div>
-  {% endif %}
 </section>
 <section class="post-main">
   {{ content }}
