@@ -76,14 +76,12 @@ body {
   padding-bottom: env(safe-area-inset-bottom);
   transition: opacity 380ms; }
   body main {
-    transform: translateY(1vh);
     opacity: 0;
     transition: all ease-in-out 380ms;
     padding: 0;
     overflow: hidden; }
   body.render main {
-    opacity: 1;
-    transform: translateY(0vh); }
+    opacity: 1; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7591,6 +7589,11 @@ footer {
         footer .footer-nav nav a.current {
           opacity: 1; }
 
+@media (max-width: 768px) {
+  footer {
+    padding: 0 20px; }
+    footer .footer-nav {
+      padding: 24px 0; } }
 .highlight .c,
 .highlight .cm,
 .highlight .c1,
@@ -7702,22 +7705,9 @@ footer {
   padding: 100px 80px; }
 
 .post-header {
-  height: 100vh;
-  display: flex;
-  align-items: center; }
-  .post-header .post-title-wrap,
-  .post-header .post-image-wrap {
-    flex: 1;
-    height: 100%; }
-  .post-header .post-title-wrap {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 80px; }
-  .post-header .post-image-wrap {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important; }
 
 .post-utteranc {
   padding: 20px 80px; }
@@ -7845,9 +7835,17 @@ footer {
       padding: 40px 0; }
       .post-item .post-item-body .posts-content .posts-body {
         padding: 0 20px !important; }
+      .post-item .post-item-body .posts-content .posts-title {
+        font-size: 26px; }
 
   .home-list {
     padding: 0 20px; }
 
   .pagination-arrow {
-    padding: 40px 20px !important; } }
+    padding: 40px 20px !important; }
+
+  .post-main {
+    padding: 30px 20px; }
+
+  .post-utteranc {
+    padding: 20px 16px; } }
