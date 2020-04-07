@@ -6,6 +6,17 @@
   position: relative;
   z-index: 1;
   // background-color: #121212;
+
+  &.language-plaintext {
+    padding: 0.25rem 0.5rem;
+    margin: auto 0.25rem;
+    transition: all ease-in-out 280ms;
+
+    &:hover {
+      background-color: #121212;
+      color: #fff;
+    }
+  }
 }
 
 // 别人的
