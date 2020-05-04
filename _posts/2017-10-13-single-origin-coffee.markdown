@@ -3,7 +3,7 @@ layout: post
 title: "Single-origin Coffee"
 date: 2017-10-13
 description: 
-image: /yoyoyo/assets/images/wxmp.png
+image: /assets/images/wxmp.png
 author: Thomas Vaeth
 tags: 
   - Mixtape

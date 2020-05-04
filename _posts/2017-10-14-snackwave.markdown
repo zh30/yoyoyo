@@ -3,7 +3,7 @@ layout: post
 title: "Snackwave"
 date: 2017-10-14
 description: 
-image: /yoyoyo/assets/images/wxmp.png
+image: /assets/images/wxmp.png
 author: Thomas Vaeth
 tags: 
   - Squid

@@ -3,7 +3,7 @@ layout: post
 title: "Lumbersexual"
 date: 2017-10-09
 description: 
-image: /yoyoyo/assets/images/wxmp.png
+image: /assets/images/wxmp.png
 author: Thomas Vaeth
 tags:
   - Mixtape

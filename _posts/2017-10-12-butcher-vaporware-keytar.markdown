@@ -3,7 +3,7 @@ layout: post
 title: "Butcher Vaporware Keytar"
 date: 2017-10-12
 description: 
-image: /yoyoyo/assets/images/wxmp.png
+image: /assets/images/wxmp.png
 author: Thomas Vaeth
 tags: 
   - Squid

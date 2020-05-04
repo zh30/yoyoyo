@@ -3,7 +3,7 @@ layout: post
 title: "Disrupt Raw Denim"
 date: 2017-10-10
 description:
-image: /yoyoyo/assets/images/wxmp.png
+image: /assets/images/wxmp.png
 author: Thomas Vaeth
 tags:
   - Squid

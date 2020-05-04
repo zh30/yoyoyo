@@ -2,8 +2,8 @@
   "name": "yoyoyo",
   "version": "0.0.3",
   "private": true,
-  "repository": "https://hertzzhang@github.com/hertzZhang/yoyoyo.git",
-  "author": "hertz <zhangheorg@outlook.com>",
+  "repository": "https://github.com/zhanghecool/yoyoyo.git",
+  "author": "hertz <zhanghecool@outlook.com>",
   "license": "MIT",
   "engines": {
     "node": ">=10.15.3",

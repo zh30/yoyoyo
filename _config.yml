@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jekyll 主题 - yoyoyo
 excerpt_separator: "true"
 themeColor: "#4B5CC4"
-baseurl: "/yoyoyo" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhanghe.cool" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
 paginate: 10
