@@ -1,8 +1,8 @@
-function init() {
+const init = () => {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
       navigator.serviceWorker
-        .register("/assets/js/sw.js")
+        .register("/assets/js/sw.js", { scope: "./" })
         .then((registration) => {
           console.log("SW registered: ", registration);
         })
@@ -11,6 +11,6 @@ function init() {
         });
     });
   }
-}
+};
 
 export default init;
