@@ -5,6 +5,7 @@
     "removeComments": true,
     "allowJs": true,
     "target": "es5",
+    "module": "es2015",
     "sourceMap": true,
     "lib": ["es2017", "dom"]
   },
