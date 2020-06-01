@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - release/*
 
 jobs:
   build:
@@ -16,15 +15,40 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.6.x
+      
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      
+      - name: Install dependencies
+        run: yarn
+      
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GIT_AUTHOR_NAME: ${{ secrets.GIT_AUTHOR_NAME }}
+          GIT_AUTHOR_EMAIL: ${{ secrets.GIT_AUTHOR_EMAIL }}
+          GIT_COMMITTER_NAME: ${{ secrets.GIT_COMMITTER_NAME }}
+          GIT_COMMITTER_EMAIL: ${{ secrets.GIT_COMMITTER_EMAIL }}
+          NPM_USERNAME: ${{ secrets.NPM_USERNAME }}
+          NPM_EMAIL: ${{ secrets.NPM_EMAIL }}
+          NPM_PASSWORD: ${{ secrets.NPM_PASSWORD }}
+        run: |
+          yarn release
+      
       - name: Install Bundler
         run: |
           set -e
           gem install bundler
           bundle install
+      
       - name: Jekyll Build
         run: |
           set -e
           bundle exec jekyll build
+      
       - name: Build Gem file
         run: |
           set -e
@@ -34,6 +58,7 @@ jobs:
             echo "Huh. That's odd. The example site doesn't seem to build."
             exit 1
           fi
+      
       - name: Deploy action for GitHub Pages
         uses: peaceiris/actions-gh-pages@v2.5.0
         env:
