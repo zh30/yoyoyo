@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/zhanghecool/yoyoyo/compare/v0.0.4...v0.0.5) (2020-06-01)
+
+
+### Features
+
+* **404:** 优化404页面 ([5596d91](https://github.com/zhanghecool/yoyoyo/commit/5596d911d41f62944919fc3bce9b3892d7708e9a))
+* **sw.js:** 开始PWA接入 ([4f9734b](https://github.com/zhanghecool/yoyoyo/commit/4f9734bcde54e28da79366dd824c2fa0c8fb1dbe))
+* **sw.ts:** 修改sw文件 ([0cff6ad](https://github.com/zhanghecool/yoyoyo/commit/0cff6addd4989555a3a9f8b056b3e572c7b3d233))
+
 ### 0.0.4 (2020-05-04)
 
 
