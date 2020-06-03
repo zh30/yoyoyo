@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h3 align="center">YOYOYO</h3>
+<h3 align="center">YOYOYO!!!</h3>
 
 <p align="center">
   采用 `kramdown` 文档编写的 GitHub Pages 模版主题。  
