@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/zhanghecool/yoyoyo/compare/v0.1.1...v0.1.2) (2020-06-03)
+
+
+### Bug Fixes
+
+* **@semantic-release/git:** @semantic-release/git ([3a95f08](https://github.com/zhanghecool/yoyoyo/commit/3a95f080e6026f7e7e4d5bf89a8a67ea487dc64a))
+
 ## [0.1.1](https://github.com/zhanghecool/yoyoyo/compare/v0.1.0...v0.1.1) (2020-06-03)
 
 
