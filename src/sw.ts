@@ -2,7 +2,7 @@ const init = () => {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
       navigator.serviceWorker
-        .register("/assets/js/sw.js", { scope: "./" })
+        .register("/assets/js/sw.js", { scope: "/assets/js/" })
         .then((registration) => {
           console.log("SW 已经注册成功: ", registration);
         })
