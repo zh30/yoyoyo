@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/zhanghecool/yoyoyo/compare/v0.3.0...v0.4.0) (2020-06-03)
+
+
+### Features
+
+* **icon:** add new icon ([3defae1](https://github.com/zhanghecool/yoyoyo/commit/3defae115e35adae406945dea36c619707f70cd0))
+
 # [0.3.0](https://github.com/zhanghecool/yoyoyo/compare/v0.2.0...v0.3.0) (2020-06-03)
 
 
