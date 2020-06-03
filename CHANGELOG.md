@@ -42,10 +42,6 @@
 * **sw.ts:** 修改sw文件 ([13ab819](https://github.com/zhanghecool/yoyoyo/commit/13ab819bab180bdea3fb659e584d90bea5002a17))
 * **sw.ts:** 修改sw文件 ([0cff6ad](https://github.com/zhanghecool/yoyoyo/commit/0cff6addd4989555a3a9f8b056b3e572c7b3d233))
 
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ### 0.0.4 (2020-05-04)
 
 
