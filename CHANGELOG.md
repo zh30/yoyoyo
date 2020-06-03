@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/zhanghecool/yoyoyo/compare/v0.1.0...v0.1.1) (2020-06-03)
+
+
+### Bug Fixes
+
+* **styles.scss:** 修复scss不能解析成css的bug ([40594c6](https://github.com/zhanghecool/yoyoyo/commit/40594c64beda81e3866130e09fb79edcf6ff887a))
+
 # [0.1.0](https://github.com/zhanghecool/yoyoyo/compare/v0.0.4...v0.1.0) (2020-06-03)
 
 
