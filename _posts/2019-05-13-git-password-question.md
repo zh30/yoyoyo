@@ -4,8 +4,8 @@ author: hertz
 categories: [Blog, Tutorial]
 tags: [yarn, nvm, node]
 excerpt: Initialize website information
-previewimg: /assets/images/wxmp.png
-image: /assets/images/wxmp.png
+previewimg: https://cdn.jsdelivr.net/gh/zhanghecool/yoyoyo/assets/images/default.jpg
+image: https://cdn.jsdelivr.net/gh/zhanghecool/yoyoyo/assets/images/default.jpg
 ---
 # 解决git操作时强制输入用户名密码的问题
 - 首先进入自己项目的根目录

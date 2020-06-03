@@ -4,8 +4,8 @@ author: hertz
 categories: [Blog, Tutorial, RUST]
 tags: [hot, init]
 excerpt: Cargo
-previewimg: /assets/images/wxmp.png
-image: /assets/images/wxmp.png
+previewimg: https://cdn.jsdelivr.net/gh/zhanghecool/yoyoyo/assets/images/default.jpg
+image: https://cdn.jsdelivr.net/gh/zhanghecool/yoyoyo/assets/images/default.jpg
 ---
 
 ## RUST cargo 使用命令
