@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/zhanghecool/yoyoyo/compare/v0.2.0...v0.3.0) (2020-06-03)
+
+
+### Features
+
+* **image:** 图片增加jsdelivr加速服务 ([650cb12](https://github.com/zhanghecool/yoyoyo/commit/650cb123cacf9bf6b369b33137a6565eb23d6ef6))
+
 # [0.2.0](https://github.com/zhanghecool/yoyoyo/compare/v0.1.3...v0.2.0) (2020-06-03)
 
 
