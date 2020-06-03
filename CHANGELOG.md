@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/zhanghecool/yoyoyo/compare/v0.1.3...v0.2.0) (2020-06-03)
+
+
+### Features
+
+* **update:** update package ([1dc6055](https://github.com/zhanghecool/yoyoyo/commit/1dc6055a41cd9d593561f5d21e5128006921ac71))
+
 ## [0.1.3](https://github.com/zhanghecool/yoyoyo/compare/v0.1.2...v0.1.3) (2020-06-03)
 
 
