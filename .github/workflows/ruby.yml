@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - name: Set up Ruby 2.6
+      - name: Set up Ruby 2.7
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.7.x
       
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -59,10 +59,11 @@ jobs:
             exit 1
           fi
       
-      - name: Deploy action for GitHub Pages
-        uses: peaceiris/actions-gh-pages@v2.5.0
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./gphome
-
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: gphome # The folder the action should deploy.
+          CLEAN: true
+          CLEAN_EXCLUDE: '["CNAME"]'
