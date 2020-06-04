@@ -7600,8 +7600,8 @@ a.text-dark:hover, a.text-dark:focus {
 .yoyoyo-header a.yoyoyo-header-logo {
   position: absolute;
   z-index: 9999;
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   left: 80px;
   top: 55px;
   padding: 0;
@@ -7611,7 +7611,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-image: url(/assets/icon/logo.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: contain; }
 
 @media (prefers-color-scheme: dark), (max-width: 992px) {
   .yoyoyo-header a.yoyoyo-header-logo {
