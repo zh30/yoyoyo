@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/zhanghecool/yoyoyo/compare/v0.4.0...v0.5.0) (2020-06-04)
+
+
+### Features
+
+* **scss:** add dark mode ([8e26c31](https://github.com/zhanghecool/yoyoyo/commit/8e26c317871b67b04eb36f045d7a3d849f8b59ae))
+
 # [0.4.0](https://github.com/zhanghecool/yoyoyo/compare/v0.3.0...v0.4.0) (2020-06-03)
 
 
