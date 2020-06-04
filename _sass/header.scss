@@ -14,6 +14,7 @@
     text-align: right;
     letter-spacing: 2.5px;
     text-transform: uppercase;
+    color: v(h1-color);
   }
 
   nav,
@@ -44,6 +45,7 @@
   a.yoyoyo-header-logo {
     position: absolute;
     z-index: 9999;
+    width: 45px;
     height: 45px;
     left: 80px;
     top: 55px;
@@ -51,10 +53,20 @@
     flex-shrink: 0;
     display: block;
     transition: all ease-in-out 380ms;
+    background-image: url(/assets/icon/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 
-    > img {
-      height: 100%;
-    }
+@media (prefers-color-scheme: dark), (max-width: 992px) {
+  .yoyoyo-header a.yoyoyo-header-logo {
+    background-image: url(/assets/icon/logo-dark.svg);
+  }
+
+  .yoyoyo-header .header-description {
+    color: #ffffff;
   }
 }
 

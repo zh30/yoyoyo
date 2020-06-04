@@ -5,6 +5,7 @@
 
 .post-main {
   padding: 80px;
+  color: v(h1-color);
 }
 
 .post-header {
@@ -53,7 +54,7 @@
     align-items: center;
     min-height: inherit;
     height: inherit;
-    background-color: #f9f9f9;
+    background-color: v(card-background-color);
 
     .posts-image,
     .posts-content {
@@ -80,23 +81,24 @@
       .posts-title {
         font-size: 60px;
         line-height: 1.1;
-        color: #000;
+        color: v(h1-color);
         transition: background-size ease-in-out 580ms;
-        background: linear-gradient(#000, #000) no-repeat left 87%/0 30%;
+        background: linear-gradient(v(h1-color), v(h1-color)) no-repeat left 87%/0 30%;
       }
 
       .posts-description {
         font-size: 16px;
         line-height: 1.5;
-        color: #0f0f0f;
+        color: v(h1-color);
         margin: 20px 0 15px;
       }
 
       .posts-author {
         font-size: 15px;
         line-height: 1.5;
-        color: #000;
+        color: v(h1-color);
         font-weight: 600;
+        opacity: 0.8;
       }
     }
 
@@ -151,7 +153,7 @@
     justify-content: center;
     font-size: 16px;
     line-height: 1.5;
-    color: #0f0f0f;
+    color: v(h1-color);
 
     img {
       width: 40px;

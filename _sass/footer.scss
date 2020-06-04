@@ -1,7 +1,7 @@
 footer {
   padding: 0 80px;
   position: relative;
-  background-color: #ffffff;
+  background-color: v(body-background-color);
   overflow: hidden;
 
   .footer-nav {
@@ -16,7 +16,7 @@ footer {
         padding: 0 8px;
         font-size: 16px;
         line-height: 32px;
-        color: #3a3a3a;
+        color: v(footer-text-color);
         opacity: 0.4;
         transition: all ease-in-out 380ms;
 

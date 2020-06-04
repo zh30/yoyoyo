@@ -61,7 +61,7 @@ body {
   line-height: $line-height-base;
   color: $body-color;
   text-align: left; // 3
-  background-color: $body-bg; // 2
+  background-color: v(body-background-color); // 2
   min-height: 100%;
   min-height: 100vh;
   position: relative;
