@@ -1,3 +1,10 @@
+## [0.5.4](https://github.com/zhanghecool/yoyoyo/compare/v0.5.3...v0.5.4) (2020-06-04)
+
+
+### Bug Fixes
+
+* **scss:** 修复logo background-size: contain; ([207aa49](https://github.com/zhanghecool/yoyoyo/commit/207aa497e856bf783359d8d4f2002c1d20b1485f))
+
 ## [0.5.3](https://github.com/zhanghecool/yoyoyo/compare/v0.5.2...v0.5.3) (2020-06-04)
 
 
