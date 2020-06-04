@@ -1,3 +1,10 @@
+## [0.5.3](https://github.com/zhanghecool/yoyoyo/compare/v0.5.2...v0.5.3) (2020-06-04)
+
+
+### Bug Fixes
+
+* **scss:** highlight ([ec4a357](https://github.com/zhanghecool/yoyoyo/commit/ec4a357653f72d83e919d6d2666a1a9e96761aa3))
+
 ## [0.5.2](https://github.com/zhanghecool/yoyoyo/compare/v0.5.1...v0.5.2) (2020-06-04)
 
 
