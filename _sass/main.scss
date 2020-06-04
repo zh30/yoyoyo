@@ -54,7 +54,11 @@
     align-items: center;
     min-height: inherit;
     height: inherit;
+    border-radius: 12px;
+    overflow: hidden;
     background-color: v(card-background-color);
+    box-shadow: 0 0 1px 0 rgba(8, 11, 14, 0.06),
+      0 16px 16px -1px rgba(8, 11, 14, 0.1);
 
     .posts-image,
     .posts-content {
@@ -83,7 +87,8 @@
         line-height: 1.1;
         color: v(h1-color);
         transition: background-size ease-in-out 580ms;
-        background: linear-gradient(v(h1-color), v(h1-color)) no-repeat left 87%/0 30%;
+        background: linear-gradient(v(h1-color), v(h1-color)) no-repeat left 87%/0
+          30%;
       }
 
       .posts-description {
@@ -134,6 +139,11 @@
         text-align: left !important;
         padding: 0 80px !important;
       }
+    }
+
+    .post-item-body {
+      border-radius: 0;
+      box-shadow: none;
     }
   }
 }
