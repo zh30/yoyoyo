@@ -1,3 +1,10 @@
+## [0.5.2](https://github.com/zhanghecool/yoyoyo/compare/v0.5.1...v0.5.2) (2020-06-04)
+
+
+### Bug Fixes
+
+* **scss:** 修改首页uibug ([a52e986](https://github.com/zhanghecool/yoyoyo/commit/a52e986275ccd8b89a49804d8b81662caa695906))
+
 ## [0.5.1](https://github.com/zhanghecool/yoyoyo/compare/v0.5.0...v0.5.1) (2020-06-04)
 
 
