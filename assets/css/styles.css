@@ -7618,7 +7618,7 @@ a.text-dark:hover, a.text-dark:focus {
     background-image: url(/assets/icon/logo-dark.svg); }
 
   .yoyoyo-header .header-description {
-    color: #ffffff; } }
+    opacity: 0.8; } }
 @media (max-width: 768px) {
   a.yoyoyo-header-logo {
     left: 30px !important;
@@ -7663,7 +7663,7 @@ footer {
   padding: 1rem 1rem 1px;
   margin: 1rem 0 1.5rem;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 16px 40px;
+  box-shadow: 0 0 1px 0 rgba(8, 11, 14, 0.06), 0 16px 16px -1px rgba(8, 11, 14, 0.1);
   position: relative;
   z-index: 1; }
   .highlighter-rouge.language-plaintext {
@@ -7823,7 +7823,10 @@ footer {
     align-items: center;
     min-height: inherit;
     height: inherit;
-    background-color: var(--card-background-color); }
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--card-background-color);
+    box-shadow: 0 0 1px 0 rgba(8, 11, 14, 0.06), 0 16px 16px -1px rgba(8, 11, 14, 0.1); }
     .post-item .post-item-body .posts-image,
     .post-item .post-item-body .posts-content {
       flex: 1;
@@ -7871,6 +7874,9 @@ footer {
     .post-item:first-child .posts-content .posts-body {
       text-align: left !important;
       padding: 0 80px !important; }
+    .post-item:first-child .post-item-body {
+      border-radius: 0;
+      box-shadow: none; }
 
 .list-pagination {
   display: flex;
