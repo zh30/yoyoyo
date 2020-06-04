@@ -2,7 +2,7 @@
 <svg width="158px" height="178px" viewBox="0 0 158 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Y</title>
     <g id="js-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="画板" transform="translate(-49.000000, -52.000000)" fill="#000000" fill-rule="nonzero">
+        <g id="画板" transform="translate(-49.000000, -52.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <polygon id="Y" transform="translate(128.000023, 141.153819) rotate(-360.000000) translate(-128.000023, -141.153819) " points="149.025671 230 149.025671 163.333313 206.974406 52.3076384 162.743624 52.3076384 128.769254 128.846123 95.0512954 52.3076384 49.0256404 52.3076384 106.974376 163.589723 106.974376 230"></polygon>
         </g>
     </g>

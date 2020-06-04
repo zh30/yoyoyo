@@ -32,7 +32,11 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --body-background-color: #ffffff;
+  --card-background-color: #f9f9f9;
+  --h1-color: #000000;
+  --footer-text-color: #3a3a3a; }
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -63,7 +67,11 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; } }
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --body-background-color: #212121;
+    --card-background-color: #121212;
+    --h1-color: #ffffff;
+    --footer-text-color: #ffffff; } }
 *,
 *::before,
 *::after {
@@ -97,7 +105,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: var(--body-background-color);
   min-height: 100%;
   min-height: 100vh;
   position: relative;
@@ -7568,7 +7576,8 @@ a.text-dark:hover, a.text-dark:focus {
   transform-origin: 0 0;
   text-align: right;
   letter-spacing: 2.5px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: var(--h1-color); }
 .yoyoyo-header nav,
 .yoyoyo-header .header-contact {
   display: none;
@@ -7591,16 +7600,25 @@ a.text-dark:hover, a.text-dark:focus {
 .yoyoyo-header a.yoyoyo-header-logo {
   position: absolute;
   z-index: 9999;
+  width: 45px;
   height: 45px;
   left: 80px;
   top: 55px;
   padding: 0;
   flex-shrink: 0;
   display: block;
-  transition: all ease-in-out 380ms; }
-  .yoyoyo-header a.yoyoyo-header-logo > img {
-    height: 100%; }
+  transition: all ease-in-out 380ms;
+  background-image: url(/assets/icon/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
+@media (prefers-color-scheme: dark), (max-width: 992px) {
+  .yoyoyo-header a.yoyoyo-header-logo {
+    background-image: url(/assets/icon/logo-dark.svg); }
+
+  .yoyoyo-header .header-description {
+    color: #ffffff; } }
 @media (max-width: 768px) {
   a.yoyoyo-header-logo {
     left: 30px !important;
@@ -7615,7 +7633,7 @@ a.text-dark:hover, a.text-dark:focus {
 footer {
   padding: 0 80px;
   position: relative;
-  background-color: #ffffff;
+  background-color: var(--body-background-color);
   overflow: hidden; }
   footer .footer-nav {
     padding: 64px 0;
@@ -7627,7 +7645,7 @@ footer {
         padding: 0 8px;
         font-size: 16px;
         line-height: 32px;
-        color: #3a3a3a;
+        color: var(--footer-text-color);
         opacity: 0.4;
         transition: all ease-in-out 380ms; }
         footer .footer-nav nav a:hover {
@@ -7764,7 +7782,8 @@ footer {
   font-weight: bold; }
 
 .post-main {
-  padding: 80px; }
+  padding: 80px;
+  color: var(--h1-color); }
 
 .post-header {
   margin-left: 0 !important;
@@ -7804,7 +7823,7 @@ footer {
     align-items: center;
     min-height: inherit;
     height: inherit;
-    background-color: #f9f9f9; }
+    background-color: var(--card-background-color); }
     .post-item .post-item-body .posts-image,
     .post-item .post-item-body .posts-content {
       flex: 1;
@@ -7823,19 +7842,20 @@ footer {
       .post-item .post-item-body .posts-content .posts-title {
         font-size: 60px;
         line-height: 1.1;
-        color: #000;
+        color: var(--h1-color);
         transition: background-size ease-in-out 580ms;
-        background: linear-gradient(#000, #000) no-repeat left 87%/0 30%; }
+        background: linear-gradient(var(--h1-color), var(--h1-color)) no-repeat left 87%/0 30%; }
       .post-item .post-item-body .posts-content .posts-description {
         font-size: 16px;
         line-height: 1.5;
-        color: #0f0f0f;
+        color: var(--h1-color);
         margin: 20px 0 15px; }
       .post-item .post-item-body .posts-content .posts-author {
         font-size: 15px;
         line-height: 1.5;
-        color: #000;
-        font-weight: 600; }
+        color: var(--h1-color);
+        font-weight: 600;
+        opacity: 0.8; }
     .post-item .post-item-body:hover {
       text-decoration: none; }
       .post-item .post-item-body:hover .posts-title {
@@ -7866,7 +7886,7 @@ footer {
     justify-content: center;
     font-size: 16px;
     line-height: 1.5;
-    color: #0f0f0f; }
+    color: var(--h1-color); }
     .list-pagination .pagination-arrow img {
       width: 40px; }
     .list-pagination .pagination-arrow:hover {
