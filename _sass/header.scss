@@ -45,8 +45,8 @@
   a.yoyoyo-header-logo {
     position: absolute;
     z-index: 9999;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     left: 80px;
     top: 55px;
     padding: 0;
@@ -56,7 +56,7 @@
     background-image: url(/assets/icon/logo.svg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
 
