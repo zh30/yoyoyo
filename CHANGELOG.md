@@ -1,3 +1,10 @@
+## [0.5.5](https://github.com/zhanghecool/yoyoyo/compare/v0.5.4...v0.5.5) (2020-06-05)
+
+
+### Bug Fixes
+
+* **scss:** 修复若干样式问题 ([26661ef](https://github.com/zhanghecool/yoyoyo/commit/26661ef8d8f733e1f95c0cd6344a0f35fb36c8d6))
+
 ## [0.5.4](https://github.com/zhanghecool/yoyoyo/compare/v0.5.3...v0.5.4) (2020-06-04)
 
 
