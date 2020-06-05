@@ -2,13 +2,10 @@
 <div class="list-pagination">
   {% if paginator.previous_page %}
   <a
-    class="pagination-arrow"
+    class="pagination-arrow arrow-left"
     href="{{ paginator.previous_page_path | relative_url }}"
   >
-    <img
-      src="{{ site.baseurl }}/assets/icon/arrow-left.svg"
-      alt="{{ site.title }}"
-    />上一页
+    上一页
   </a>
   {% endif %}
   <!-- {% for page in (1..paginator.total_pages) %} {% if page ==
@@ -25,13 +22,10 @@
   {% endif %} {% endfor %}  -->
   {% if paginator.next_page %}
   <a
-    class="pagination-arrow"
+    class="pagination-arrow arrow-right"
     href="{{ paginator.next_page_path | relative_url }}"
   >
-    下一页<img
-      src="{{ site.baseurl }}/assets/icon/arrow-right.svg"
-      alt="{{ site.title }}"
-    />
+    下一页
   </a>
   {% endif %}
 </div>

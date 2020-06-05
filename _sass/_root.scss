@@ -21,6 +21,8 @@
   --card-background-color: #f9f9f9;
   --h1-color: #000000;
   --footer-text-color: #3a3a3a;
+  --code-background-color: #ffffff;
+  --code-default-color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,9 +45,11 @@
     --font-family-sans-serif: #{inspect($font-family-sans-serif)};
     --font-family-monospace: #{inspect($font-family-monospace)};
 
-    --body-background-color: #212121;
-    --card-background-color: #121212;
+    --body-background-color: #121212;
+    --card-background-color: #222222;
     --h1-color: #ffffff;
     --footer-text-color: #ffffff;
+    --code-background-color: #222222;
+    --code-default-color: #dadee0;
   }
 }

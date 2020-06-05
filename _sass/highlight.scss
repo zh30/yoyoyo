@@ -6,7 +6,7 @@
     0 6px 6px -1px rgba(8, 11, 14, 0.1);
   position: relative;
   z-index: 1;
-  // background-color: #121212;
+  background-color: v(code-background-color);
 
   &.language-plaintext {
     padding: 0.25rem 0.5rem;
@@ -22,6 +22,8 @@
 
 // 别人的
 .highlight {
+  color: v(code-default-color);
+  
   .c,
   .cm,
   .c1,
