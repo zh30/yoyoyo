@@ -1,3 +1,10 @@
+## [0.5.6](https://github.com/zhanghecool/yoyoyo/compare/v0.5.5...v0.5.6) (2020-06-05)
+
+
+### Bug Fixes
+
+* **pre:** 修改pre css 的 color 值 ([619692c](https://github.com/zhanghecool/yoyoyo/commit/619692c87d76d2aa4fc9bd6a6a0cd0ec39732b3b))
+
 ## [0.5.5](https://github.com/zhanghecool/yoyoyo/compare/v0.5.4...v0.5.5) (2020-06-05)
 
 
