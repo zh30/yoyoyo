@@ -31,7 +31,8 @@ kbd {
 pre {
   display: block;
   font-size: $code-font-size;
-  color: $pre-color;
+  // color: $pre-color;
+  color: inherit;
 
   // Account for some code outputs that place code tags in pre tags
   code {
