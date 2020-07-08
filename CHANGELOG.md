@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/zhanghecool/yoyoyo/compare/v0.5.6...v0.6.0) (2020-07-08)
+
+
+### Features
+
+* **readme.md:** 增加 badge ([2339873](https://github.com/zhanghecool/yoyoyo/commit/233987364c7e97142ddd3b76a09a55d38468e084))
+
 ## [0.5.6](https://github.com/zhanghecool/yoyoyo/compare/v0.5.5...v0.5.6) (2020-06-05)
 
 
