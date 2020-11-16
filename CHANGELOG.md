@@ -1,3 +1,10 @@
+## [0.7.1](https://github.com/zhanghecool/yoyoyo/compare/v0.7.0...v0.7.1) (2020-11-16)
+
+
+### Bug Fixes
+
+* **readme.md:** 修改readme文档 ([0ed3e31](https://github.com/zhanghecool/yoyoyo/commit/0ed3e3112993c9fdfa45216fe426991b4676914e))
+
 # [0.7.0](https://github.com/zhanghecool/yoyoyo/compare/v0.6.0...v0.7.0) (2020-11-16)
 
 
