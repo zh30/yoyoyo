@@ -1,3 +1,10 @@
+# [0.7.0](https://github.com/zhanghecool/yoyoyo/compare/v0.6.0...v0.7.0) (2020-11-16)
+
+
+### Features
+
+* **yarn.lock:** update package ([cf9ca84](https://github.com/zhanghecool/yoyoyo/commit/cf9ca8416034bffa41a5d29e01d35d003c8f3d59))
+
 # [0.6.0](https://github.com/zhanghecool/yoyoyo/compare/v0.5.6...v0.6.0) (2020-07-08)
 
 
