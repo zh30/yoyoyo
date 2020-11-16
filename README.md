@@ -1,10 +1,4 @@
-<p align="center">
-  <a href="https://yoyoyo.zhanghe.cool/">
-    <img src="https://yoyoyo.zhanghe.cool/assets/icon/ms-icon-310x310.png" alt="YO3 logo" width="72" height="72">
-  </a>
-</p>
-
-<h3 align="center">YOYOYO!!!</h3>
+[![yoyoyo](https://socialify.git.ci/zhanghecool/yoyoyo/image?description=1&language=1&logo=https%3A%2F%2Fyoyoyo.zhanghe.cool%2Fassets%2Ficon%2Fms-icon-310x310.png&owner=1&pattern=Brick%20Wall&theme=Light))](https://yoyoyo.zhanghe.cool/)
 
 <p align="center">
   采用 `kramdown` 文档编写的 GitHub Pages 模版主题。  
