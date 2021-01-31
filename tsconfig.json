@@ -9,6 +9,6 @@
     "sourceMap": true,
     "lib": ["es2017", "dom"]
   },
-  "include": ["./assets/ts/**/*"],
+  "include": ["./src/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
