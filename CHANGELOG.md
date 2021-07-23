@@ -1,3 +1,10 @@
+## [0.8.3](https://github.com/zhanghecool/yoyoyo/compare/v0.8.2...v0.8.3) (2021-07-23)
+
+
+### Performance Improvements
+
+* **upgrade:** upgrade gem ([93ed7d4](https://github.com/zhanghecool/yoyoyo/commit/93ed7d432c3caafc53bb6c9827f4df6554d4f911))
+
 ## [0.8.2](https://github.com/zhanghecool/yoyoyo/compare/v0.8.1...v0.8.2) (2021-07-23)
 
 
