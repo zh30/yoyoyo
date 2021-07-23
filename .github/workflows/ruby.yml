@@ -62,8 +62,8 @@ jobs:
           set -e
           gem install bundler
           bundle config path vendor/bundle
-          bundle update
           bundle install
+          bundle update
       
       - name: Jekyll Build
         run: |
