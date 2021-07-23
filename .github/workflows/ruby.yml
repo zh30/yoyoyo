@@ -12,9 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Set up Ruby 3
-        uses: ruby/setup-ruby@v1.78.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.x
+          ruby-version: latest
       
       - uses: actions/cache@v2
         with:
