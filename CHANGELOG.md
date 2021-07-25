@@ -1,3 +1,24 @@
+# [0.9.0](https://github.com/zhanghecool/yoyoyo/compare/v0.8.3...v0.9.0) (2021-07-25)
+
+
+### Features
+
+* **upgrade:** upgrade package ([0abe12c](https://github.com/zhanghecool/yoyoyo/commit/0abe12c412e365c47e5cb2d2f53af9e3d333eb73))
+
+## [0.8.3](https://github.com/zhanghecool/yoyoyo/compare/v0.8.2...v0.8.3) (2021-07-23)
+
+
+### Performance Improvements
+
+* **upgrade:** upgrade gem ([93ed7d4](https://github.com/zhanghecool/yoyoyo/commit/93ed7d432c3caafc53bb6c9827f4df6554d4f911))
+
+## [0.8.2](https://github.com/zhanghecool/yoyoyo/compare/v0.8.1...v0.8.2) (2021-07-23)
+
+
+### Performance Improvements
+
+* **upgrade:** upgrade gemfile ([e6416b1](https://github.com/zhanghecool/yoyoyo/commit/e6416b1461955095824384cd6f7a7c5f54277d06))
+
 ## [0.8.1](https://github.com/zhanghecool/yoyoyo/compare/v0.8.0...v0.8.1) (2021-07-23)
 
 
