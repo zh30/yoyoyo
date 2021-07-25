@@ -1,3 +1,10 @@
+# [0.10.0](https://github.com/zhanghecool/yoyoyo/compare/v0.9.0...v0.10.0) (2021-07-25)
+
+
+### Features
+
+* **upgrade:** upgrade node package ([887d657](https://github.com/zhanghecool/yoyoyo/commit/887d6578fa51ed32722dbd8978e4d966b3c1a664))
+
 # [0.9.0](https://github.com/zhanghecool/yoyoyo/compare/v0.8.3...v0.9.0) (2021-07-25)
 
 
