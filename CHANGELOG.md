@@ -1,3 +1,10 @@
+# [0.9.0](https://github.com/zhanghecool/yoyoyo/compare/v0.8.3...v0.9.0) (2021-07-25)
+
+
+### Features
+
+* **upgrade:** upgrade package ([0abe12c](https://github.com/zhanghecool/yoyoyo/commit/0abe12c412e365c47e5cb2d2f53af9e3d333eb73))
+
 ## [0.8.3](https://github.com/zhanghecool/yoyoyo/compare/v0.8.2...v0.8.3) (2021-07-23)
 
 
