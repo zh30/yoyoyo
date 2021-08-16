@@ -1,7 +1,29 @@
-@import "header";
-@import "post";
-@import "footer";
-@import "highlight";
+@import 'header';
+@import 'post';
+@import 'footer';
+@import 'highlight';
+
+$cyan:    #17a2b8 !default;
+
+:root {
+  --body-background-color: #ffffff;
+  --card-background-color: #f9f9f9;
+  --h1-color: #000000;
+  --footer-text-color: #3a3a3a;
+  --code-background-color: #ffffff;
+  --code-default-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background-color: #121212;
+    --card-background-color: #222222;
+    --h1-color: #ffffff;
+    --footer-text-color: #ffffff;
+    --code-background-color: #222222;
+    --code-default-color: #dadee0;
+  }
+}
 
 .post-main {
   padding: 80px;
@@ -172,7 +194,7 @@
   }
 
   .arrow-left::before {
-    content: "";
+    content: '';
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -183,7 +205,7 @@
   }
 
   .arrow-right::after {
-    content: "";
+    content: '';
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -265,7 +287,7 @@
   .post-item .post-item-body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
-  
+
   .list-pagination {
     .arrow-left::before {
       background-image: url(/assets/icon/arrow_left_dark.svg);
