@@ -1,6 +1,6 @@
 {
   "name": "yoyoyo",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "private": true,
   "repository": "https://github.com/zhanghecool/yoyoyo.git",
   "author": "hertz <zhanghecool@outlook.com>",
@@ -12,7 +12,7 @@
   "scripts": {
     "cz": "git add . && npx git-cz",
     "webpack": "NODE_ENV=production webpack --watch",
-    "start": "yarn webpack & yarn serve & wait",
+    "dev": "yarn webpack & yarn serve & wait",
     "serve": "bundle exec jekyll serve",
     "binit": "bundle install",
     "build-gem": "gem build script/yoyoyo.gemspec",
