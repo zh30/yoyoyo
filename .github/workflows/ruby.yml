@@ -23,25 +23,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       
-      - name: Use Node.js
-        uses: actions/setup-node@v1
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2.0.1
         with:
-          node-version: 14
-      
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+          version: latest
 
-      - uses: actions/cache@v2
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: Use Node.js
+        uses: actions/setup-node@v2
         with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version: 16
+          cache: 'pnpm'
       
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
       
       - name: Release
         env:
@@ -55,7 +49,7 @@ jobs:
           NPM_EMAIL: ${{ secrets.NPM_EMAIL }}
           NPM_PASSWORD: ${{ secrets.NPM_PASSWORD }}
         run: |
-          yarn release
+          pnpm release
       
       - name: Install Bundler
         run: |
