@@ -1,3 +1,10 @@
+# [0.12.0](https://github.com/zhanghecool/yoyoyo/compare/v0.11.1...v0.12.0) (2022-04-12)
+
+
+### Features
+
+* **package.json:** yarn to pnpm ([72cf8b6](https://github.com/zhanghecool/yoyoyo/commit/72cf8b6b56e228980ffe87aa56e42cc932c59209))
+
 ## [0.11.1](https://github.com/zhanghecool/yoyoyo/compare/v0.11.0...v0.11.1) (2022-02-16)
 
 
