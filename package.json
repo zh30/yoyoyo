@@ -55,11 +55,6 @@
     "webpack-cli": "^3.3.12",
     "workbox-webpack-plugin": "^5.1.4"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "release": {
     "branches": [
       "master",

@@ -1,14 +1,15 @@
 Gem::Specification.new do |spec|
   spec.name          = "yoyoyo"
-  spec.version       = "0.0.10"
-  spec.authors       = ["Hertz Zhang"]
-  spec.email         = ["zhanghelook@outlook.com"]
+  spec.version       = "0.0.11"
+  spec.authors       = ["Henry Zhang"]
+  spec.email         = ["zhanghedev@outlook.com"]
 
-  spec.summary       = "一个漂亮的、自适应的、适合程序员的 Jekyll 主题。"
+  spec.summary       = "A beautiful, responsive Jekyll theme for programmers."
   spec.homepage      = "https://github.com/zh30/yoyoyo"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
+  spec.metadata["source_code_uri"] = "https://github.com/zh30/yoyoyo"
 
   spec.files = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r!^(assets|_(includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))!i)
