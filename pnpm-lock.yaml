@@ -11,6 +11,9 @@ dependencies:
   animejs:
     specifier: ^3.2.1
     version: 3.2.1
+  biglvan:
+    specifier: ^0.13.1
+    version: 0.13.1
   core-js:
     specifier: ^3.21.1
     version: 3.21.1
@@ -2350,6 +2353,11 @@ packages:
   /big.js@5.2.2:
     resolution: {integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==}
     dev: true
+
+  /biglvan@0.13.1:
+    resolution: {integrity: sha512-LWY480aGW7N4NHXC/cjT/WRe+8/yKk0K35wVaJ0oUvVXmpNupjm6r7dUkzFsDkH43ayV12NtRe+4e8Dv8gj4Hw==}
+    engines: {vscode: ^1.40.0}
+    dev: false
 
   /binary-extensions@1.13.1:
     resolution: {integrity: sha512-Un7MIEDdUC5gNpcGDV97op1Ywk748MpHcFTHoYs6qnj1Z3j7I53VG3nwZhKzoBZmbdRNnb6WRdFlwl7tSDuZGw==}

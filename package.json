@@ -22,6 +22,7 @@
   "dependencies": {
     "@babel/runtime": "^7.17.9",
     "animejs": "^3.2.1",
+    "biglvan": "^0.13.1",
     "core-js": "^3.21.1",
     "rxjs": "^6.6.7",
     "swup": "^2.0.14"
